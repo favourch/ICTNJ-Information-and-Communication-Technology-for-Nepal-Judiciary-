@@ -1,0 +1,99 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:Label runat="server" Font-Names="Verdana" Font-Size="11px" ForeColor="#404040" />
+<asp:Label SkinID="PCSlbl"  runat="server" Font-Names="PCS NEPALI" Font-Size="13px" ForeColor="#1D2A5B" />
+<asp:Label SkinID="MasterOrgName" runat="server" Font-Names="PCS NEPALI" Font-Size="26px" ForeColor="#5B6DB5" />
+
+<asp:Label SkinID="LJMSlbl" runat="server"/>
+<asp:Label SkinID="Unicodelbl" runat="server"/>
+<asp:Label SkinID="UnicodeHeadlbl" runat="server" CssClass="subjectHead"/>
+<asp:Label SkinID="UnicodeMasterOrgName" runat="server" Font-Size="26px" ForeColor="#FFFFFF" />
+<asp:Label SkinID="UnicodeMasterAddress" runat="server" Font-Size="20px" ForeColor="#FFFFFF" />
+
+<asp:Button runat="server" Font-Names="Verdana" Font-Size="11px" Height="20px"/>
+
+<asp:Button runat="server" SkinID="Add" CssClass="Add"/>
+<asp:Button runat="server" SkinID="Normal" CssClass="Normal"/>
+<asp:Button runat="server" SkinID="Cancel" CssClass="Cancel"/>
+<asp:Button runat="server" SkinID="Dynamic" CssClass="Dynamic"/>
+
+<asp:CheckBoxlist  runat="server" Font-Names="Verdana" Font-Size="11px" ForeColor="#1D2A5B"/>
+
+<asp:GridView runat="server" Font-Names="Arial Unicode MS, Verdana" BackColor="White" BorderColor="#EFE6F7"
+    BorderStyle="Solid" BorderWidth="1px" CellPadding="1" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False">
+    <FooterStyle BackColor="#CCCCCC" Font-Size="1em"/>
+    <PagerStyle BackColor="#EFE6F7" ForeColor="Black" HorizontalAlign="Center" Font-Size="13px"/>
+    <SelectedRowStyle BackColor="#578caa" Font-Bold="False" ForeColor="#FFFFFF" Font-Size="13px"/>
+    <HeaderStyle HorizontalAlign="Left" Font-Bold="True"  BackColor="#307196" ForeColor="White" Font-Size="14px"/>
+    <RowStyle BackColor="#E7E2E2" ForeColor="#333333" Font-Size="14px"/>
+    <AlternatingRowStyle BackColor="#FFFFFF" Font-Size="14px"/>
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="Unicodegrd" Font-Names="Arial Unicode MS, Verdana" BackColor="White" BorderColor="#EFE6F7"
+    BorderStyle="Solid" BorderWidth="1px" CellPadding="1" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False">
+    <FooterStyle BackColor="#CCCCCC" Font-Size="1em"/>
+    <PagerStyle BackColor="#EFE6F7" ForeColor="Black" HorizontalAlign="Center" Font-Size="13px"/>
+    <SelectedRowStyle BackColor="#578caa" Font-Bold="False" ForeColor="#FFFFFF" Font-Size="13px"/>
+    <HeaderStyle HorizontalAlign="Left" Font-Bold="True"  BackColor="#307196" ForeColor="White" Font-Size="14px"/>
+    <RowStyle BackColor="#E7E2E2" ForeColor="#333333" Font-Size="14px"/>
+    <AlternatingRowStyle BackColor="#FFFFFF" Font-Size="14px"/>
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="LJMSgrd" Font-Size="14px" Font-Names="PCS NEPALI, Arial Unicode MS, Verdana" BackColor="White" BorderColor="#EFE6F7"
+    BorderStyle="Solid" BorderWidth="1px" CellPadding="1" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False">
+    <FooterStyle BackColor="#CCCCCC" Font-Size="1em"/>
+    <PagerStyle BackColor="#EFE6F7" ForeColor="Black" HorizontalAlign="Center" Font-Size="13px"/>
+    <SelectedRowStyle BackColor="#578caa" Font-Bold="False" ForeColor="#FFFFFF" Font-Size="13px"/>
+    <HeaderStyle HorizontalAlign="Left" Font-Bold="True"  BackColor="#307196" ForeColor="White" Font-Size="14px"/>
+    <RowStyle BackColor="#E7E2E2" ForeColor="#333333" Font-Size="14px"/>
+    <AlternatingRowStyle BackColor="#FFFFFF" Font-Size="12px"/>
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="Plaingrd" Font-Names="Arial Unicode MS, Verdana" BackColor="White" BorderColor="#EFE6F7"
+    BorderStyle="Solid" BorderWidth="1px" CellPadding="1" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False">
+    <FooterStyle BackColor="#CCCCCC" Font-Size="1em"/>
+    <PagerStyle BackColor="#EFE6F7" ForeColor="Black" HorizontalAlign="Center" Font-Size="13px"/>
+    <SelectedRowStyle BackColor="#FFFFFF" Font-Size="14px"/>
+    <HeaderStyle HorizontalAlign="Left" Font-Bold="True"  BackColor="#307196" ForeColor="White" Font-Size="14px"/>
+    <RowStyle BackColor="#FFFFFF" Font-Size="14px"/>
+    <AlternatingRowStyle BackColor="#FFFFFF" Font-Size="14px"/>
+</asp:GridView>
+
+<asp:TextBox runat="server"/>
+<asp:TextBox SkinID="PCStxt" runat="server"/>
+<asp:TextBox SkinID="Unicodetxt" runat="server" CssClass="Textbox"/>
+<asp:TextBox SkinID="LJMStxt" runat="server" Font-Names="PCS NEPALI, Arial Unicode MS, Verdana"/>
+
+
+<asp:DropDownList runat="server"/>
+<asp:DropDownList SkinID="PCSddl" runat="server"/>
+<asp:DropDownList SkinID="Unicodeddl" runat="server" />
+<asp:DropDownList SkinID="Ljmsddl" runat="server" Font-Names="PCS NEPALI, Arial Unicode MS, Verdana"/>
+
+<asp:ListBox  runat="server" Font-Names="Arial Unicode MS, Verdana" Font-Size="11px" />
+<asp:ListBox SkinID="PCSlst" runat="server" Font-Names="PCS NEPALI" Font-Size="13px" />
+<asp:ListBox SkinID="LJMSlst" runat="server" Font-Names="PCS NEPALI, Arial Unicode MS, Verdana"/>
+
+<asp:CheckBox SkinID="smallChk" runat="server" Font-Size="11px" CssClass="Checkbox"/>
+
+<asp:RadioButtonList SkinID="Unicoderadio" CssClass="Radio" runat="server"/>
+
+<asp:LinkButton runat="server" Font-Names="Arial Unicode MS, Verdana" Font-Size="12px" Width="100%"/>
+<asp:LinkButton SkinID="Logout" runat="server" Font-Underline="false" Font-Names="Arial Unicode MS, Verdana" Font-Size="12px" ForeColor="#FFFFFF"/>
+<asp:LinkButton SkinID="smalCalendarlLnk" runat="server" Font-Names="Arial Unicode MS,Verdana" Font-Size="10px" ForeColor="#1D2A5B"/>
+<asp:LinkButton SkinID="Tippani" runat="server" CssClass="tippani"/>
+
+<asp:RadioButton runat="server" SkinID="LJMSRdo" Font-Names="PCS NEPALI, Arial Unicode MS, Verdana"/>

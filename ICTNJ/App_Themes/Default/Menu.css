@@ -1,0 +1,52 @@
+﻿
+
+.MenuX
+{
+}
+
+.StaticMenuItemStyle
+{
+	font-family:Arial Unicode MS, Verdana, Arial;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration: noe;
+	color:#FFFFFF;
+	height:28px;
+	text-align:center;
+	vertical-align:middle;
+	border-right:solid 1px #a7a7a7;
+}
+
+.StaticHoverStyle
+{
+}
+
+.DynamicMenuStyle
+{
+    z-index: 100;
+    filter:alpha(opacity=80);
+    opacity:0.92;
+}
+
+.DynamicMenuItemStyle
+{
+	padding: 2px 2px 2px 2px;
+	font-family:Arial Unicode MS, Verdana, Arial;
+	font-size:13px;
+	font-weight:normal;
+	/*height:20px;*/
+	background-image:url(./Images/MenuItemBG.gif);
+	color:#FFFFFF;
+	text-align:left;
+	vertical-align:middle;
+	border:solid 1px #276b91;
+	display:block;
+}
+
+.DynamicHoverStyle
+{
+	background-image:url(./Images/H-MenuItemBG.gif);
+	color:Orange;
+	font-weight:bold;
+	border:solid 1px #A7A7A7;
+}

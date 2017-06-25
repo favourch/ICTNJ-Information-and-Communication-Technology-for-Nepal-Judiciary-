@@ -1,0 +1,17 @@
+﻿th
+{
+	text-align:left;
+	vertical-align:top;
+}
+
+.FocusedRow
+{
+    background-color:Red/* ForeColor="#333333" Font-Size="14px"*/
+    color:#333333;
+    font-size:14px;
+}
+
+.FocusedRow:hover
+{
+	background-color:#FBC9A4;
+}
