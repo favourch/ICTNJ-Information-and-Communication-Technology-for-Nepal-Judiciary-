@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <continent name="NorthAmerica">
+    <country name="United States of America">
+      <language>English</language>
+      <capital>Washington D.C</capital>
+      <cities>Chicago</cities>
+    </country>
+  </continent>
+  <continent name="Europe">
+    <country name="United Kingdom">
+      <language>English</language>
+      <capital>London</capital>
+      <cities>Bristol</cities>
+    </country>
+  </continent>
+  <continent name="Asia">
+    <country name="India">
+      <language>Hindi</language>
+      <capital>New Delhi</capital>
+      <cities>Hyderabad</cities>
+    </country>
+  </continent>
+  <continent name="Australia">
+    <country name="Australia">
+      <language>English</language>
+      <capital>Canberra</capital>
+      <cities>Melbourne</cities>
+    </country>
+  </continent>
+  <continent name="Africa">
+    <country name="Zimbabwe">
+      <language>English</language>
+      <capital>Harare</capital>
+      <cities>Mutare</cities>
+    </country>
+  </continent>
+</Countries>
