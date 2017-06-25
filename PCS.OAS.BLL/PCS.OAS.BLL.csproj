@@ -1,0 +1,155 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9E7A317-659D-4CEC-8950-2C576B8F361E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.OAS.BLL</RootNamespace>
+    <AssemblyName>PCS.OAS.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLAppointee.cs" />
+    <Compile Include="BLLAppointment.cs" />
+    <Compile Include="BLLAppointmentEvent.cs" />
+    <Compile Include="BLLAppointmentStatus.cs" />
+    <Compile Include="BLLAuctionApprove.cs" />
+    <Compile Include="BLLAuctionDetails.cs" />
+    <Compile Include="BLLAuctionMaster.cs" />
+    <Compile Include="BLLCheckEvents.cs" />
+    <Compile Include="BLLCommitteeByTippani.cs.cs" />
+    <Compile Include="BLLDartaaChalaani.cs" />
+    <Compile Include="BLLDocument.cs" />
+    <Compile Include="BLLDocumentAttachment.cs" />
+    <Compile Include="BLLDocumentCategory.cs" />
+    <Compile Include="BLLDocumentFlowType.cs" />
+    <Compile Include="BLLDocumentProcess.cs" />
+    <Compile Include="BLLEvent.cs" />
+    <Compile Include="BLLGeneralTippani.cs" />
+    <Compile Include="BLLGeneralTippaniAttachment.cs" />
+    <Compile Include="BLLGeneralTippaniDetail.cs" />
+    <Compile Include="BLLGeneralTippaniProcess.cs" />
+    <Compile Include="BLLGeneralTippaniRequestInfo.cs" />
+    <Compile Include="BLLGeneralTippaniSearch.cs" />
+    <Compile Include="BLLGroup.cs" />
+    <Compile Include="BLLGroupMember.cs" />
+    <Compile Include="BLLGroupPersonSearch.cs" />
+    <Compile Include="BLLInvDakhila.cs" />
+    <Compile Include="BLLInvDeliveryOrder.cs" />
+    <Compile Include="BLLInvDeliveryOrderDetail.cs" />
+    <Compile Include="BLLInvDonationsPurchases.cs" />
+    <Compile Include="BLLInvItems.cs" />
+    <Compile Include="BLLInvItemsCategory.cs" />
+    <Compile Include="BLLInvItemsSubCategory.cs" />
+    <Compile Include="BLLInvItemsTransfered.cs" />
+    <Compile Include="BLLInvItemsWiiteOffAprove.cs" />
+    <Compile Include="BLLInvItemsWriteOff.cs" />
+    <Compile Include="BLLInvItemsWriteOffDT.cs" />
+    <Compile Include="BLLInvItemType.cs" />
+    <Compile Include="BLLInvItemUnit.cs" />
+    <Compile Include="BLLInvOrgItems.cs" />
+    <Compile Include="BLLInvOrgItemsKNJ.cs" />
+    <Compile Include="BLLInvOrgItemsPrice.cs" />
+    <Compile Include="BLLInvPurchaseOrder.cs" />
+    <Compile Include="BLLInvPurchaseOrderDetail.cs.cs" />
+    <Compile Include="BLLInvReturnOrder.cs" />
+    <Compile Include="BLLInvReturnOrderDetail.cs" />
+    <Compile Include="BLLInvSrchDakhila.cs" />
+    <Compile Include="BLLInvSrchDeliveryOrder.cs" />
+    <Compile Include="BLLInvSrchPurchaseOrder.cs" />
+    <Compile Include="BLLInvSrchReturnOrder.cs" />
+    <Compile Include="BLLInvSupplier.cs" />
+    <Compile Include="BLLInvSupplierContact.cs" />
+    <Compile Include="BLLMaagFaaramDetail.cs" />
+    <Compile Include="BLLMaagFaaramHead.cs" />
+    <Compile Include="BLLMaagIssueHead.cs" />
+    <Compile Include="BLLMeeting.cs" />
+    <Compile Include="BLLMeetingAgenda.cs" />
+    <Compile Include="BLLMeetingInfo.cs" />
+    <Compile Include="BLLMeetingMinute.cs" />
+    <Compile Include="BLLMeetingParticipant.cs" />
+    <Compile Include="BLLMeetingResources.cs" />
+    <Compile Include="BLLMeetingResponse.cs" />
+    <Compile Include="BLLMeetingStatus.cs" />
+    <Compile Include="BLLMeetingType.cs" />
+    <Compile Include="BLLMeetingVenue.cs" />
+    <Compile Include="BLLMeetingVenueAlreadyBookedDetails.cs" />
+    <Compile Include="BLLMeetingVenueBooking.cs" />
+    <Compile Include="BLLMeetingVenueResources.cs" />
+    <Compile Include="BLLMemberPosition.cs" />
+    <Compile Include="BLLMessage.cs" />
+    <Compile Include="BLLMessageAttachment.cs" />
+    <Compile Include="BLLMessageGroup.cs" />
+    <Compile Include="BLLMessagePerson.cs" />
+    <Compile Include="BLLMessageReceiver.cs" />
+    <Compile Include="BLLOrganizationTippaniSubject.cs" />
+    <Compile Include="BLLTippaniChannel.cs" />
+    <Compile Include="BLLTippaniPriority.cs" />
+    <Compile Include="BLLTippaniStatus.cs" />
+    <Compile Include="BLLTippaniSubject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.OAS.ATT\PCS.OAS.ATT.csproj">
+      <Project>{7D4A7612-7DC5-4733-AD51-2ECFA60C99E8}</Project>
+      <Name>PCS.OAS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.OAS.DLL\PCS.OAS.DLL.csproj">
+      <Project>{EEC78B9F-01EE-4182-A88E-6969A22C879F}</Project>
+      <Name>PCS.OAS.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.PMS.ATT\PCS.PMS.ATT.csproj">
+      <Project>{51BD4CB5-815A-476D-A9F9-7680EDB7DEF4}</Project>
+      <Name>PCS.PMS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.PMS.DLL\PCS.PMS.DLL.csproj">
+      <Project>{F2D8DB43-2A0E-46A4-9A17-960B5864C131}</Project>
+      <Name>PCS.PMS.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.SECURITY.ATT\PCS.SECURITY.ATT.csproj">
+      <Project>{ACB98799-4B66-4691-AF7B-E38B3C658F71}</Project>
+      <Name>PCS.SECURITY.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
