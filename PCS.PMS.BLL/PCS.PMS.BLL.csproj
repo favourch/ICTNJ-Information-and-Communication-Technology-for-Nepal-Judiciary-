@@ -1,0 +1,114 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D014676-D28D-4B59-9110-9CF03B7AF1DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.PMS.BLL</RootNamespace>
+    <AssemblyName>PCS.PMS.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLAwardPunishment.cs" />
+    <Compile Include="BLLAttendance.cs" />
+    <Compile Include="BLLDesignation.cs" />
+    <Compile Include="BLLDesignationLevel.cs" />
+    <Compile Include="BLLEmployee.cs" />
+    <Compile Include="BLLEmployeeBeneficiary.cs" />
+    <Compile Include="BLLEmployeeDeputation.cs" />
+    <Compile Include="BLLEmployeeDetailSearch.cs" />
+    <Compile Include="BLLEmployeeEvaluation.cs" />
+    <Compile Include="BLLEmployeeEvaluationDetail.cs" />
+    <Compile Include="BLLEmployeeEvaluator.cs.cs" />
+    <Compile Include="BLLEmployeeExperience.cs" />
+    <Compile Include="BLLEmployeeLeave.cs" />
+    <Compile Include="BLLEmployeeLeaveApprove.cs" />
+    <Compile Include="BLLEmployeeMedicalExp.cs" />
+    <Compile Include="BLLEmployeePosting.cs" />
+    <Compile Include="BLLEmployeePublication.cs" />
+    <Compile Include="BLLEmployeeSearch.cs" />
+    <Compile Include="BLLEmployeeVisits.cs" />
+    <Compile Include="BLLEmployeeWork.cs" />
+    <Compile Include="BLLEmployeeWorkDivision.cs" />
+    <Compile Include="BLLEvaluationCriteria.cs" />
+    <Compile Include="BLLEvaluationCriteriaGrade.cs" />
+    <Compile Include="BLLEvaluationGroup.cs" />
+    <Compile Include="BLLJudgeWorkInspection.cs" />
+    <Compile Include="BLLJudgeWorkInspectionDetails.cs" />
+    <Compile Include="BLLJudgeWorkList.cs" />
+    <Compile Include="BLLLeaveType.cs" />
+    <Compile Include="BLLLeaveTypeDesignation.cs" />
+    <Compile Include="BLLLeaveTypeEmployee.cs" />
+    <Compile Include="BLLManonayan.cs" />
+    <Compile Include="BLLOrganizationDesignation.cs" />
+    <Compile Include="BLLOrgUnitHead.cs" />
+    <Compile Include="BLLPost.cs" />
+    <Compile Include="BLLPostingType.cs" />
+    <Compile Include="BLLPropertyCategory.cs" />
+    <Compile Include="BLLPropertyCategoryColumns.cs" />
+    <Compile Include="BLLPropertyDetails.cs" />
+    <Compile Include="BLLPublicationType.cs" />
+    <Compile Include="BLLRetirement.cs" />
+    <Compile Include="BLLSamuha.cs" />
+    <Compile Include="BLLSewa.cs" />
+    <Compile Include="BLLSubmissionDetails.cs" />
+    <Compile Include="BLLUpaSamuha.cs" />
+    <Compile Include="BLLVwEmployeeOrganisationInfo.cs" />
+    <Compile Include="BLLVwEmpRelativeBeneficiary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COMMON.BLL\PCS.COMMON.BLL.csproj">
+      <Project>{72728912-EF1B-46C4-BDA1-7F1EEE063B15}</Project>
+      <Name>PCS.COMMON.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.PMS.ATT\PCS.PMS.ATT.csproj">
+      <Project>{51BD4CB5-815A-476D-A9F9-7680EDB7DEF4}</Project>
+      <Name>PCS.PMS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.PMS.DLL\PCS.PMS.DLL.csproj">
+      <Project>{F2D8DB43-2A0E-46A4-9A17-960B5864C131}</Project>
+      <Name>PCS.PMS.DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
