@@ -1,0 +1,86 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.COMMON.ATT</RootNamespace>
+    <AssemblyName>PCS.COMMON.ATT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATTAnnualHoliday.cs" />
+    <Compile Include="ATTCountry.cs" />
+    <Compile Include="ATTDate.cs" />
+    <Compile Include="ATTDegree.cs" />
+    <Compile Include="ATTDegreeLevel.cs" />
+    <Compile Include="ATTDistrict.cs" />
+    <Compile Include="ATTDocumentsType.cs" />
+    <Compile Include="ATTEmail.cs" />
+    <Compile Include="ATTEmp.cs" />
+    <Compile Include="ATTFixedHoliday.cs" />
+    <Compile Include="ATTInstitution.cs" />
+    <Compile Include="ATTInsurance.cs" />
+    <Compile Include="ATTOrganization.cs" />
+    <Compile Include="ATTOrganizationSection.cs" />
+    <Compile Include="ATTOrganizationSubType.cs" />
+    <Compile Include="ATTOrganizationType.cs" />
+    <Compile Include="ATTOrganizationUnit.cs" />
+    <Compile Include="ATTPerson.cs" />
+    <Compile Include="ATTPersonAddress.cs" />
+    <Compile Include="ATTPersonAttachments.cs" />
+    <Compile Include="ATTPersonDocuments.cs" />
+    <Compile Include="ATTPersonEMail.cs" />
+    <Compile Include="ATTPersonPhone.cs" />
+    <Compile Include="ATTPersonQualification.cs" />
+    <Compile Include="ATTPersonSearch.cs" />
+    <Compile Include="ATTPersonTraining.cs" />
+    <Compile Include="ATTPhone.cs" />
+    <Compile Include="ATTRelationType.cs" />
+    <Compile Include="ATTRelatives.cs" />
+    <Compile Include="ATTReligion.cs" />
+    <Compile Include="ATTTime.cs" />
+    <Compile Include="ATTVdc.cs" />
+    <Compile Include="ATTWard.cs" />
+    <Compile Include="ATTZone.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.SECURITY.ATT\PCS.SECURITY.ATT.csproj">
+      <Project>{ACB98799-4B66-4691-AF7B-E38B3C658F71}</Project>
+      <Name>PCS.SECURITY.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

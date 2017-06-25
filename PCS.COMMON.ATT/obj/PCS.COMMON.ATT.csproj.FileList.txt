@@ -1,0 +1,14 @@
+bin\Release\PCS.COMMON.ATT.dll
+bin\Release\PCS.COMMON.ATT.pdb
+bin\Release\PCS.SECURITY.ATT.dll
+bin\Release\PCS.SECURITY.ATT.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PCS.COMMON.ATT.dll
+obj\Release\PCS.COMMON.ATT.pdb
+bin\Debug\PCS.COMMON.ATT.dll
+bin\Debug\PCS.COMMON.ATT.pdb
+bin\Debug\PCS.SECURITY.ATT.dll
+bin\Debug\PCS.SECURITY.ATT.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PCS.COMMON.ATT.dll
+obj\Debug\PCS.COMMON.ATT.pdb
