@@ -1,0 +1,47 @@
+﻿.ajax_tab_theme .ajax__tab_header
+{
+	font-family:Arial Unicode MS,Verdana, PCS NEPALI,helvetica,clean,sans-serif;
+	font-size:14px; 
+	font-weight:bold; 
+	border-bottom:solid 5px #3e7b9d;
+}
+.ajax_tab_theme .ajax__tab_header .ajax__tab_outer 
+{
+	background:url(../Images/sprite.png) #d8d8d8 repeat-x;
+	margin:0px 1px 0px 0px;
+	border:solid 1px #a3a3a3;
+	border-bottom-width:0px;
+}
+.ajax_tab_theme .ajax__tab_header .ajax__tab_tab
+{
+	color:#006ea2;
+	padding:0.1em 0.15em
+}
+.ajax_tab_theme .ajax__tab_hover .ajax__tab_outer 
+{
+	background: #FEE2E2 left -1300px;
+	color:Red;
+}
+.ajax_tab_theme .ajax__tab_hover .ajax__tab_tab 
+{
+	color:#006ea2;
+}
+.ajax_tab_theme .ajax__tab_active .ajax__tab_outer
+{
+	background: #3e7b9d repeat-x left -1400px;
+}
+.ajax_tab_theme .ajax__tab_active .ajax__tab_tab 
+{
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+.ajax_tab_theme .ajax__tab_body 
+{ 
+	font-family:Arial Unicode MS,verdana,tahoma,helvetica;
+	/*background-color:#ececec;*/
+	font-size:10pt;
+	padding:0.25em 0.5em;
+	border-left:solid 1px #3e7b9d;
+	border-bottom:solid 1px #3e7b9d;
+	border-right:solid 1px #3e7b9d;
+}

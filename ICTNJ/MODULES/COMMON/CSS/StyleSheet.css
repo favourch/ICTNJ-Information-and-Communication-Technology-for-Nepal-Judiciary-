@@ -1,0 +1,319 @@
+﻿body {
+}
+
+.SearchButtonStyle
+
+{
+	border-left: black 1px solid;
+	
+	border-right: black 1px solid;
+
+	border-top: black 1px solid;
+
+	border-bottom: black 1px solid;
+
+	font-weight: bold;
+
+	font-size: 9pt;
+
+	color: navy;
+
+	font-family: Arial;
+}
+
+.simplelabel
+
+{
+	font-weight:normal;
+
+	font-size:small;
+
+	font-family:Verdana;
+
+	height: 22px;
+
+}
+
+.errorlabel
+
+{
+	font-weight:normal;
+
+	font-size:small;
+
+	font-family:Verdana;
+
+	height: 22px;
+	color:Red;
+
+}
+.headerlabel
+
+{
+
+	font-weight:normal;
+
+	font-size:small;
+	
+	font-weight:bold;
+	
+	color:black;
+	
+	font-family:Verdana;
+
+	height: 22px;
+
+}
+
+.dropdownNep
+{
+	font-family:Preeti;
+	font-size:medium;
+	font-size: 15px;
+	width: 100px;
+	
+}
+.ddl 
+{
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      width: 100px;
+      
+}
+
+.Simplebtn
+{
+	font-weight:normal;
+	font-size:small;
+	font-weight:bold;
+	color:black;
+	font-family:Verdana;
+	height: 22px;
+	
+}
+
+.Navbtn
+{
+	FONT-SIZE: 0.7em;
+	CURSOR: hand;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: verdana;
+	TEXT-ALIGN: left;
+	width: auto;
+}
+
+.Searchbtn
+{
+	FONT-SIZE: 0.7em;
+	CURSOR: hand;
+	BORDER-BOTTOM: #000000 1px solid;
+	FONT-FAMILY: verdana;
+	TEXT-ALIGN: left;
+	background-image: url(../IMages/magnifier.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	width: auto;
+}
+
+.SearchTxt
+{
+	
+	FONT-FAMILY: verdana;
+	TEXT-ALIGN: left;
+	background-image: url(../IMages/Search.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	width: auto;
+}
+
+
+
+.GridtblHeading
+{
+	font-weight:normal;
+	font-size:small;
+	font-family:Verdana;
+	height: 22px;
+	color:White;
+	font-weight:bold;
+	
+}
+
+.collapsePanel {
+	
+	background-color:#F2F2F2;
+	overflow:hidden;
+}
+
+.collapsePanelHeader
+{
+	font-family:Arial Unicode MS, Verdana, Arial;
+	width:100%;
+	height:26px;
+	background-image: url(../../COMMON/Images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	cursor:pointer;
+	/*font-weight:bold;*/
+}
+.divHeaderLong
+{
+	font-family:Arial Unicode MS, Verdana, Arial;
+	width:100%;
+	height:26px;
+	background-image: url(../../COMMON/Images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+}
+.divHeader
+{
+	font-family:Arial Unicode MS, Verdana, Arial;
+	width:80%;
+	height:26px;
+	background-image: url(../../COMMON/Images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	/*font-weight:bold;*/
+}
+.tblTDLeft
+{
+	text-align:left;
+	padding-left:20px;
+	height:30px;
+	
+	
+}
+
+.tblTDRight
+{
+	text-align:right;
+	vertical-align:top;
+	padding-top:7px;
+	width:25%;
+}
+
+.grdTxtBox
+{
+	TEXT-ALIGN: right;
+	
+}
+
+
+#master_content .collapsePanelHeader a {color:#FFF;}
+#master_content .collapsePanelHeader a:hover {text-decoration:none;background:none;}
+
+div.loading-invisible
+  {
+	  display:none;
+  }
+  
+  div.loading-visible
+  {
+    z-index:10;
+    background:white;
+    color:#ffffff;
+    position: absolute;
+    top:145px;
+    left:207px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+    -moz-border-radius:10px;
+    -moz-box-shadow:10px 10px 5 px red;
+    -webkit-border-radius:10px;
+ 	border-radius: 11px;
+	behavior: url(border-radius.htc);
+
+     }
+     
+     
+  div.msgTo-invisible
+  {
+	  display:none;
+  }
+
+  div.msgTo-visible
+  {
+	
+	display:block;
+    position:absolute;
+    top:240px;
+    left:240px;
+    width:100%;
+    text-align:center;
+    background:white;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+    z-index: 1000;
+  }
+  
+    div.msgToCc-visible
+  {
+	
+	display:block;
+    position:absolute;
+    /*top:290px*/
+    top:475px;
+    left:240px;
+    width:100%;
+    text-align:center;
+    background:white;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+    z-index: 1000;
+  }
+  
+  div.msgToCc1-visible
+  {
+	
+	display:block;
+    position:absolute;
+    /*top:290px*/
+    top:670px;
+    left:240px;
+    width:100%;
+    text-align:center;
+    background:white;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+    z-index: 1000;
+  }
+  
+   tr.invisible
+  {
+	  display:none;
+  }
+
+  tr.visible
+  {
+	
+	display:block;
+    
+  }
+  
+  div.invisible
+  {
+	  display:none;
+  }
+
+  div.visible
+  {
+	
+	display:block;
+    
+  }
+  
+   #divhead{
+    background:white;
+    height:60px;
+    width:800px;
+     }
+  
+  

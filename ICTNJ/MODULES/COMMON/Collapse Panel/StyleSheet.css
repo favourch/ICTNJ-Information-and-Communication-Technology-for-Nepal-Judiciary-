@@ -1,0 +1,28 @@
+﻿p
+{
+	padding: 0 0 1em;
+}
+
+.msg_list 
+{
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+}
+
+.msg_head 
+{
+	padding: 2px 2px;
+	cursor: pointer;
+	position: relative;
+	background-color:#C2CCD1;
+	margin:1px;
+}
+
+.msg_body 
+{
+	padding: 2px 2px 2px;
+	background-color:#F4F4F8;
+	vertical-align:top;
+	height:auto;
+}

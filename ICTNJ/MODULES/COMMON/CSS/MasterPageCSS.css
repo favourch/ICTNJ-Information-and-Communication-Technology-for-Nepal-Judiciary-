@@ -1,0 +1,62 @@
+﻿
+body
+{ 
+	margin: 0 0 0 0;
+}
+
+.header
+{
+	margin: 0 0 0 0;
+	height: 85px;
+	width: 100%; 
+	/*background-color:#23688F;*/
+	border-left: solid 1px #465a96;
+	border-right: solid 1px #465a96;
+	text-align: center;
+}
+
+.menu
+{
+	margin: 1px 0 0 0;
+	height: 31px;
+	width: 100%; 
+	/*background-color:#23688F;*/
+	/*color:#FFFFFF;*/
+}
+
+.mainContainer
+{
+	margin: 0 0 4px 0;
+	width:100%;
+	background-color:#FAFAFA;
+}
+
+.footer
+{
+	margin:0 0 0 0;
+	height:30px;
+	width:100%;
+	text-align:center;
+	/*background-color:#23688F;*/
+}
+
+.FooterText
+{
+	font-family: Arial Unicode MS,Verdana,Arial;
+	color:#FFFFFF;
+	font-size:11px;
+}
+
+#Login
+{
+	margin:0 0 0 0;
+	width:100%;
+	height:550px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+A:hover
+{
+	text-decoration:underline;
+}
