@@ -1,0 +1,111 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DLPDSMasterPage.master.cs" Inherits="MODULES_DLPDS_DLPDSMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>DLPDS</title>
+     <link href="../COMMON/CSS/MasterPageCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheetSecurity.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+            <asp:Panel ID="header" runat="server" CssClass="header">
+            <table bgcolor="white" cellpadding="0" cellspacing="0" style="width: 100%; position: static;
+                height: 85px">
+                <tr>
+                    <td style="height: 9px; width:80px">
+                    </td>
+                    <td align="right" style="height: 9px" colspan="2">
+                        <a href="#" class="TopLink"><span style="font-size: 7.5pt">Home</span></a>|<a href="#" class="TopLink"><span style="font-size: 7.5pt">RSS</span></a>|<a href="#" class="TopLink"><span style="font-size: 7.5pt">Feedback</span></a>&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 2px; background-color: #5B6DB5; width:80px">
+                    </td>
+                    <td style="width: 88%; height: 2px; background-color: #5b6db5">
+                    </td>
+                    <td style="width: 88%; height: 2px; background-color: #5b6db5">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:80px; height: 73px;">
+                        <asp:Image ID="Image1" runat="server" Height="65px" ImageUrl="../COMMON/Images/NepalGovLogo.gif"
+                            Style="position: static" Width="70px" />
+                    </td>
+                    <td align="center" style="width: 100%; height: 73px;">
+            
+            <asp:Label ID="headerText1" runat="server" Style="position: static" Text="Organization name" Font-Bold="True" Font-Names="Arial" Font-Size="21pt" ForeColor="#5B6DB5" SkinID="Header" Font-Strikeout="False" Width="300px"></asp:Label><br />
+            <asp:Label ID="headerText2" runat="server" Style="position: static" Text="Organization address" Font-Bold="True" Font-Names="Arial" Font-Size="14pt" ForeColor="#5B6DB5" SkinID="Address" Width="300px"></asp:Label></td>
+                    <td align="center" style="width: 100%; height: 73px">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="../COMMON/Images/Nepali Flag.gif"
+                            Style="position: static" /></td>
+                </tr>
+                <tr>
+                    <td style="width: 80px">
+                    </td>
+                    <td align="center" style="width: 100%">
+                    </td>
+                    <td align="center" style="width: 100%" valign="top">
+                        <asp:Label ID="lblUserName" runat="server" Font-Bold="True" Text="Username"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+            <br />
+        </asp:Panel>
+        
+                <asp:Panel ID="menu" runat="server" CssClass="menu" BackImageUrl="~/MODULES/COMMON/Images/menuBg.jpg">
+            <table style="position: static; width: 100%;" bordercolorlight="#0" cellspacing="0">
+                <tr>
+                    <td style="width: 92%; height: 21px;" align="left" valign="middle">
+                        <asp:Menu id="DLPDSMenu" runat="server" StaticPopOutImageUrl="~/MODULES/COMMON/Images/right.gif" Height="28px" DynamicPopOutImageUrl="~/MODULES/COMMON/Images/right.gif" Width="350px" StaticSubMenuIndent="10px" ForeColor="White" Font-Size="12px" Font-Names="Verdana" Font-Bold="True" DisappearAfter="50" Orientation="Horizontal" OnMenuItemClick="DLPDSMenu_MenuItemClick" CssClass="OpenClass" OnMenuItemDataBound="DLPDSMenu_MenuItemDataBound">
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="6px"></StaticMenuItemStyle>
+                            <DynamicHoverStyle BackColor="Black" Font-Underline="False" ForeColor="White"></DynamicHoverStyle>
+                            <DynamicMenuStyle BackColor="#455A99"></DynamicMenuStyle>
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="6px" Font-Bold="False"></DynamicMenuItemStyle>
+                            <StaticHoverStyle BackColor="Black" ForeColor="White"></StaticHoverStyle>
+                            <Items>
+                                <asp:MenuItem Text="Program" ToolTip="MODULES/DLPDS/Forms/Program" Value="Program"></asp:MenuItem>
+                                <asp:MenuItem Text="Resource Person" ToolTip="MODULES/DLPDS/Forms/PersonnelInfo" Value="Resource Person"></asp:MenuItem>
+                                <asp:MenuItem Text="Participants" Value="Participants" ToolTip="MODULES/DLPDS/Forms/Participants">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Course" ToolTip="#" Value="Course">
+                                    <asp:MenuItem Text="Assign Material/Member" ToolTip="MODULES/DLPDS/Forms/CourseMemberAssignment" Value="Assign Material/Member"></asp:MenuItem>
+                                    <asp:MenuItem Text="Course Management" ToolTip="MODULES/DLPDS/Forms/CourseManagement"
+                                        Value="Course Management"></asp:MenuItem>
+                                    <asp:MenuItem Text="Resource Person Marks" ToolTip="MODULES/DLPDS/Forms/MarkResourcePerson"
+                                        Value="Resource Person Marks"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Setup" Value="Setup" ToolTip="#">
+                                        <asp:MenuItem Text="Post"
+                                            Value="Post" ToolTip="MODULES/DLPDS/LookUp/Post"></asp:MenuItem>
+                                        <asp:MenuItem Text="Sponsor"
+                                            Value="Sponsor" ToolTip="MODULES/DLPDS/LookUp/Sponsor"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Security" Value="Security" ToolTip="#">
+                                        <asp:MenuItem Text="Role" ToolTip="MODULES/DLPDS/Security/Roles" Value="Role"></asp:MenuItem>
+                                        <asp:MenuItem Text="User" ToolTip="MODULES/DLPDS/Security/Users" Value="User"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+					</td>
+					<td style="width: 9%; height: 21px;" align="left" valign="middle">
+                        &nbsp;<asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="True" OnClick="lnkLogout_Click" SkinID="Logout" style="position: static">Logout</asp:LinkButton></td>
+                </tr>
+            </table>
+        </asp:Panel>
+
+        <asp:Panel ID="mainContainer" runat="server" CssClass="mainContainer">
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+        </asp:Panel>
+
+        <asp:Panel ID="footer" runat="server" CssClass="footer" BackImageUrl="~/MODULES/COMMON/Images/FooterBg.jpg">
+            <br />
+            <span style="color: White; font-family:Verdana; font-size:10px">Powered By: Professional Computer System Pvt. Ltd</span></asp:Panel>
+        
+    </form>
+</body>
+</html>
