@@ -1,0 +1,102 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51BD4CB5-815A-476D-A9F9-7680EDB7DEF4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.PMS.ATT</RootNamespace>
+    <AssemblyName>PCS.PMS.ATT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PCS.SECURITY.ATT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PCS.SECURITY.ATT\bin\Debug\PCS.SECURITY.ATT.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATTAttendance.cs" />
+    <Compile Include="ATTAwardPunishment.cs" />
+    <Compile Include="ATTDesignation.cs" />
+    <Compile Include="ATTDesignationLevel.cs" />
+    <Compile Include="ATTEmployee.cs" />
+    <Compile Include="ATTEmployeeBeneficiary.cs" />
+    <Compile Include="ATTEmployeeDetailSearch.cs" />
+    <Compile Include="ATTEmployeeEvaluation.cs" />
+    <Compile Include="ATTEmployeeEvaluationDetail.cs" />
+    <Compile Include="ATTEmployeeEvaluator.cs" />
+    <Compile Include="ATTEmployeeExperience.cs" />
+    <Compile Include="ATTEmployeeLeave.cs" />
+    <Compile Include="ATTEmployeeMedicalExp.cs" />
+    <Compile Include="ATTEmployeePosting.cs" />
+    <Compile Include="ATTEmployeePublication.cs" />
+    <Compile Include="ATTEmployeeSearch.cs" />
+    <Compile Include="ATTEmployeeVisits.cs" />
+    <Compile Include="ATTEmployeeWork.cs" />
+    <Compile Include="ATTEmployeeWorkDivision.cs" />
+    <Compile Include="ATTEvaluationCriteria.cs" />
+    <Compile Include="ATTEvaluationCriteriaGrade.cs" />
+    <Compile Include="ATTEvaluationGroup.cs" />
+    <Compile Include="ATTJudgeWorkInspection.cs" />
+    <Compile Include="ATTJudgeWorkInspectionDetails.cs" />
+    <Compile Include="ATTJudgeWorkList.cs" />
+    <Compile Include="ATTLeaveType.cs" />
+    <Compile Include="ATTLeaveTypeDesignation.cs" />
+    <Compile Include="ATTLeaveTypeEmployee.cs" />
+    <Compile Include="ATTManonayan.cs" />
+    <Compile Include="ATTOrganizationDesignation.cs" />
+    <Compile Include="ATTOrgUnitHead.cs" />
+    <Compile Include="ATTPost.cs" />
+    <Compile Include="ATTPostingType.cs" />
+    <Compile Include="ATTPropertyCategory.cs" />
+    <Compile Include="ATTPropertyCategoryColumns.cs" />
+    <Compile Include="ATTPropertyDetails.cs" />
+    <Compile Include="ATTPropertyIncome.cs" />
+    <Compile Include="ATTPublicationType.cs" />
+    <Compile Include="ATTRetirement.cs" />
+    <Compile Include="ATTSamuha.cs" />
+    <Compile Include="ATTSewa.cs" />
+    <Compile Include="ATTSubmissionDetails.cs" />
+    <Compile Include="ATTUpaSamuha.cs" />
+    <Compile Include="ATTVwEmployeeOrganisationInfo.cs" />
+    <Compile Include="ATTVwEmpRelativeBeneficiary.cs" />
+    <Compile Include="ATTEmployeeDeputaion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

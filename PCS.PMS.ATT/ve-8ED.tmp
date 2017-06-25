@@ -1,0 +1,212 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PCS.PMS.ATT
+{
+    public class ATTEmployeeDeputaion
+    {
+        private double _EmpID;
+
+        public double EmpID
+        {
+            get { return _EmpID; }
+            set { _EmpID = value; }
+        }
+
+        private string _EmpName;
+
+        public string EmpName
+        {
+            get { return _EmpName; }
+            set { _EmpName = value; }
+        }
+
+        private string _Gender;
+
+        public string Gender
+        {
+            get { return _Gender; }
+            set { _Gender = value; }
+        }
+	
+
+        private int _OrgID;
+
+        public int OrgID
+        {
+            get { return _OrgID; }
+            set { _OrgID = value; }
+        }
+
+        private string _OrgName;
+
+        public string OrgName
+        {
+            get { return _OrgName; }
+            set { _OrgName = value; }
+        }
+	
+	
+
+        private int _DesID;
+
+        public int DesID
+        {
+            get { return _DesID; }
+            set { _DesID = value; }
+        }
+
+        private string _CreatedDate;
+
+        public string CreatedDate
+        {
+            get { return _CreatedDate; }
+            set { _CreatedDate = value; }
+        }
+
+        private int _PostID;
+
+        public int PostID
+        {
+            get { return _PostID; }
+            set { _PostID = value; }
+        }
+
+
+        //private int _UnitID;
+
+        //public int UnitID
+        //{
+        //    get { return _UnitID; }
+        //    set { _UnitID = value; }
+        //}
+
+        //private int _SectionID;
+
+        //public int SectionID
+        //{
+        //    get { return _SectionID; }
+        //    set { _SectionID = value; }
+        //}
+
+        private string _FromDate;
+
+        public string FromDate
+        {
+            get { return _FromDate; }
+            set { _FromDate = value; }
+        }
+	
+        private string _DecisionDate;
+
+        public string DecisionDate
+        {
+            get { return _DecisionDate; }
+            set { _DecisionDate = value; }
+        }
+
+        private int _DepOrgID;
+
+        public int DepOrgID
+        {
+            get { return _DepOrgID; }
+            set { _DepOrgID = value; }
+        }
+
+        private string _DecisionVerfiedBy;
+
+        public string DecisionVerifiedBy
+        {
+            get { return _DecisionVerfiedBy; }
+            set { _DecisionVerfiedBy = value; }
+        }
+
+        private string  _LeaveDate;
+
+        public string  LeaveDate
+        {
+            get { return _LeaveDate; }
+            set { _LeaveDate = value; }
+        }
+
+        private string _LeaveVerifiedBy;
+
+        public string LeaveVerifiedBy
+        {
+            get { return _LeaveVerifiedBy; }
+            set { _LeaveVerifiedBy = value; }
+        }
+
+        private string _ReturnDate;
+
+        public string ReturnDate
+        {
+            get { return _ReturnDate; }
+            set { _ReturnDate = value; }
+        }
+
+        private string _ReturnVerifiedBy;
+    
+        public string ReturnVerifiedBy
+        {
+            get { return _ReturnVerifiedBy; }
+            set { _ReturnVerifiedBy = value; }
+        }
+
+        private string _Responsibilites;
+
+        public string Responsibilities
+        {
+            get { return _Responsibilites; }
+            set { _Responsibilites = value; }
+        }
+
+        private string _EntryBy;
+
+        public string EntryBy
+        {
+            get { return _EntryBy; }
+            set { _EntryBy = value; }
+        }
+
+        private string _Action;
+
+        public string Action
+        {
+            get { return _Action; }
+            set { _Action = value; }
+        }
+	
+
+        public ATTEmployeeDeputaion()
+        {
+        }
+
+        public ATTEmployeeDeputaion(double empID,string empName,string gender, int orgID,string orgName,int desID,string createdDate,int postID,string fromDate, string decisionDate,int depOrgID, string decisionVerBy, string leaveDate, string leaveVerBy, string returnDate, string retrunVerBy, string responsibilities, string entryBy,string action)
+        {
+            this.EmpID = empID;
+            this.EmpName = empName;
+            this.Gender = gender;
+            this.OrgID = orgID;
+            this.OrgName = orgName;   
+            this.DesID = desID;
+            this.CreatedDate = createdDate;
+            this.PostID = postID;
+            this.FromDate = fromDate;
+            this.DecisionDate = decisionDate;
+            this.DepOrgID = depOrgID;
+            this.DecisionVerifiedBy = decisionVerBy;
+            this.LeaveDate = leaveDate;
+            this.LeaveVerifiedBy = leaveVerBy;
+            this.ReturnDate = returnDate;
+            this.ReturnVerifiedBy = retrunVerBy;
+            this.Responsibilities = responsibilities;
+            this.EntryBy = entryBy;
+            this.Action = action;
+        }
+
+	
+
+    }
+}
