@@ -1,0 +1,139 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C118829-B692-40D7-AFEB-3242C04486F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.CMS.BLL</RootNamespace>
+    <AssemblyName>PCS.CMS.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLAccountType.cs" />
+    <Compile Include="BLLAinType.cs" />
+    <Compile Include="BLLApplication.cs" />
+    <Compile Include="BLLAttorney.cs" />
+    <Compile Include="BLLBench.cs" />
+    <Compile Include="BLLBenchFormation.cs" />
+    <Compile Include="BLLBenchJudge.cs" />
+    <Compile Include="BLLBenchOrder.cs" />
+    <Compile Include="BLLBenchType.cs" />
+    <Compile Include="BLLCaseAccount.cs" />
+    <Compile Include="BLLCaseAccountDetails.cs" />
+    <Compile Include="BLLCaseAccountForward.cs" />
+    <Compile Include="BLLCaseAccountMaster.cs" />
+    <Compile Include="BLLCaseBenchAssignment.cs" />
+    <Compile Include="BLLCaseCheckList.cs" />
+    <Compile Include="BLLCaseDocumentLit.cs" />
+    <Compile Include="BLLCaseDocuments.cs" />
+    <Compile Include="BLLCaseDocumentType.cs" />
+    <Compile Include="BLLCaseEvidence.cs" />
+    <Compile Include="BLLCaseLawyer.cs" />
+    <Compile Include="BLLCaseProceeding.cs" />
+    <Compile Include="BLLCaseRegistration.cs" />
+    <Compile Include="BLLCaseSeachForCBA.cs" />
+    <Compile Include="BLLCaseSearch.cs" />
+    <Compile Include="BLLCaseStatus.cs" />
+    <Compile Include="BLLCaseType.cs" />
+    <Compile Include="BLLCauseList.cs" />
+    <Compile Include="BLLCheckList.cs" />
+    <Compile Include="BLLCourtFee.cs" />
+    <Compile Include="BLLDecisionType.cs" />
+    <Compile Include="BLLDocumentType.cs" />
+    <Compile Include="BLLLitigantPrisonDetails.cs" />
+    <Compile Include="BLLLitigants.cs" />
+    <Compile Include="BLLLitigantSearch.cs" />
+    <Compile Include="BLLLitigantSubType.cs" />
+    <Compile Include="BLLMelMilaapKartaa.cs" />
+    <Compile Include="BLLMelMilaapKartaaOath.cs" />
+    <Compile Include="BLLMisil.cs" />
+    <Compile Include="BLLMyaadType.cs" />
+    <Compile Include="BLLOrders.cs" />
+    <Compile Include="BLLOrganisationBenchType.cs" />
+    <Compile Include="BLLOrganizationCaseType.cs" />
+    <Compile Include="BLLOrgApplication.cs" />
+    <Compile Include="BLLOrgCaseRegistrationType.cs" />
+    <Compile Include="BLLOrgCaseRegTypeCheckList.cs" />
+    <Compile Include="BLLOrgDecisionType.cs" />
+    <Compile Include="BLLPesiType.cs" />
+    <Compile Include="BLLPratiuttar.cs" />
+    <Compile Include="BLLPratiuttarDocLit.cs" />
+    <Compile Include="BLLPratiuttarDocuments.cs" />
+    <Compile Include="BLLPratiuttarEvidence.cs" />
+    <Compile Include="BLLPratiuttarLitigants.cs" />
+    <Compile Include="BLLRegistrationDiary.cs" />
+    <Compile Include="BLLRegistrationDiaryName.cs" />
+    <Compile Include="BLLRegistrationDiarySubject.cs" />
+    <Compile Include="BLLRegistrationType.cs" />
+    <Compile Include="BLLSectionCaseType.cs" />
+    <Compile Include="BLLSectionClerkCase.cs" />
+    <Compile Include="BLLTameli.cs" />
+    <Compile Include="BLLTameliSearch.cs" />
+    <Compile Include="BLLTameliStatus.cs" />
+    <Compile Include="BLLTameliType.cs" />
+    <Compile Include="BLLTarekhCourtBato.cs" />
+    <Compile Include="BLLTarikh.cs" />
+    <Compile Include="BLLTarikhLocation.cs" />
+    <Compile Include="BLLWitnessPerson.cs" />
+    <Compile Include="BLLWitnessSearch.cs" />
+    <Compile Include="BLLWritSubCatSubTitle.cs" />
+    <Compile Include="BLLWritSubCatTitle.cs" />
+    <Compile Include="BLLWritSubject.cs" />
+    <Compile Include="BLLWritSubjectCategory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.CMS.ATT\PCS.CMS.ATT.csproj">
+      <Project>{57A6FD65-EB75-4D6D-A4A3-ECA4C78914AA}</Project>
+      <Name>PCS.CMS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.CMS.DLL\PCS.CMS.DLL.csproj">
+      <Project>{3BE44C3B-9C05-4C88-A388-9F9F86B0679E}</Project>
+      <Name>PCS.CMS.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COMMON.BLL\PCS.COMMON.BLL.csproj">
+      <Project>{72728912-EF1B-46C4-BDA1-7F1EEE063B15}</Project>
+      <Name>PCS.COMMON.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
