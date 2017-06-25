@@ -1,0 +1,188 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PMSMasterPage.master.cs" Inherits="MODULES_PMS_PMSMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ICT" runat="server">
+    <title>ICT-NJ Master page</title>
+    <link href="../COMMON/CSS/MasterPageCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheetSecurity.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/AjaxTab.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    
+</head>
+<body style="background-color:white">
+    <form id="form1" runat="server">
+        <asp:Panel ID="header" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Header.gif"
+            CssClass="header">
+            <table cellpadding="0" cellspacing="0" style="width: 100%; position: static; height: 85px">
+                <tr>
+                    <td align="center" style="width: 80px; height: 73px;">
+                        <asp:Image ID="Image1" runat="server" Height="69px" ImageUrl="~/MODULES/COMMON/Images/T-NepalGovLogo.gif"
+                            Style="position: static" Width="76px" />
+                    </td>
+                    <td align="center" style="width: 100%; height: 73px;">
+                        <asp:Label ID="headerText1" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS"
+                            Font-Size="21pt" Font-Strikeout="False" SkinID="UnicodeMasterOrgName" Style="position: static"
+                            Text="Organization name" Width="558px" Height="44px"></asp:Label><br />
+                        <asp:Label ID="headerText2" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS"
+                            Font-Size="14pt" SkinID="UnicodeMasterAddress" Style="position: static" Text="Organization address"
+                            Width="558px" Height="32px"></asp:Label></td>
+                    <td align="center" style="width: 80px; height: 73px">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/MODULES/COMMON/Images/Nepali Flag.gif"
+                            Style="position: static" Width="55px"/>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <asp:Panel ID="menu" runat="server" BackImageUrl="~/MODULES/COMMON/Images/menuBg.gif" CssClass="menu">
+            <table cellspacing="0" style="position: static; width: 100%;">
+                <tr>
+                    <td align="left" style="width: 92%; height: 21px;" valign="middle">
+                        <asp:Menu ID="PMSMenu" runat="server" CssClass="MenuX" DisappearAfter="50" DynamicEnableDefaultPopOutImage="False"
+                            OnMenuItemClick="PMSMenu_MenuItemClick" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"
+                            StaticSubMenuIndent="10px" Width="600px">
+                            <StaticMenuItemStyle CssClass="StaticMenuItemStyle" />
+                            <StaticHoverStyle CssClass="StaticHoverStyle" />
+                            <DynamicMenuStyle CssClass="DynamicMenuStyle" />
+                            <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" Width="220px" />
+                            <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                            <Items>
+                                <asp:MenuItem Text="Employee" Value="Employee" Selectable="False" >
+                                    <asp:MenuItem Text="Add Employee" Value="3,1,1" ToolTip="MODULES/PMS/Forms/Employee"></asp:MenuItem>
+                                    <asp:MenuItem Text="Medical Expenses" ToolTip="MODULES/PMS/Forms/MedicalExpenses"
+                                        Value="3,2,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation" ToolTip="MODULES/PMS/Forms/EmployeeDeputation"
+                                        Value="3,3,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation Return" ToolTip="MODULES/PMS/Forms/EmpDeputationReturn"
+                                        Value="3,4,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Work Division" Value="3,5,1" ToolTip="MODULES/PMS/Forms/EmployeeWorkDivision"></asp:MenuItem>
+                                    <asp:MenuItem Text="Unit Head" Value="3,6,1" ToolTip="MODULES/PMS/Forms/OrgUnitHead"></asp:MenuItem>
+                                    <asp:MenuItem Text="Award" Value="3,7,1" ToolTip="MODULES/PMS/Forms/AwardPunishment"></asp:MenuItem>
+                                    <asp:MenuItem Text="Punishment" Value="3,8,1" ToolTip="MODULES/PMS/Forms/Punishment"></asp:MenuItem>
+                                    <asp:MenuItem Text="Retirement" Value="3,9,1" ToolTip="MODULES/PMS/Forms/Retirement"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Search" Value="3,10,1" ToolTip="MODULES/PMS/Forms/EmployeeSearch"></asp:MenuItem>
+                                    <asp:MenuItem Text="Advance Search" ToolTip="MODULES/PMS/Forms/EmployeeDetailSearch"
+                                        Value="3,11,1"></asp:MenuItem>
+                                </asp:MenuItem> 
+                            
+
+                                <asp:MenuItem Selectable="False" Text="Leave" Value="Leave">
+                                    <asp:MenuItem Text="Employee Leave" ToolTip="MODULES/PMS/Forms/EmployeeLeave" Value="3,12,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Leave Approval" ToolTip="MODULES/PMS/Forms/EmployeeLeaveApprove" Value="3,13,1">
+                                    </asp:MenuItem>
+
+                                    <asp:MenuItem Text="Leave Type" ToolTip="MODULES/PMS/LookUp/LeaveType" Value="3,14,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Designation Wise Leave" ToolTip="MODULES/PMS/LookUp/LeaveTypeDesignation" Value="3,15,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Wise Leave" ToolTip="MODULES/PMS/LookUp/LeaveTypeEmployee"
+                                        Value="3,16,1"></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Text="Evaluation" Value="Evaluation" Selectable="False">
+                                    <asp:MenuItem Text="Employee Evaluation" ToolTip="MODULES/PMS/Forms/EmployeeEvaluation"
+                                        Value="3,17,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Evaluation Group" ToolTip="MODULES/PMS/LookUp/EvaluationGroup"
+                                        Value="3,18,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Evaluation Criteria/Grade" ToolTip="MODULES/PMS/LookUp/EvaluationCriteriaNGrade"
+                                        Value="3,19,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Judge Work Evaluation" ToolTip="MODULES/PMS/Forms/JudgeWorkInspection"
+                                        Value="3,20,1"></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Selectable="False" Text="Lookup" Value="Lookup">
+                                    <asp:MenuItem Text="Sewa" ToolTip="MODULES/PMS/LookUp/Sewa" Value="3,21,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Post" ToolTip="MODULES/PMS/LookUp/OrganizationDesignation" Value="3,22,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Unit" ToolTip="MODULES/PMS/LookUp/OrganizationUnit" Value="3,23,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Posting Type" ToolTip="MODULES/PMS/LookUp/PostingType" Value="3,24,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Designation" ToolTip="MODULES/PMS/LookUp/Designation" Value="3,25,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Degree" ToolTip="MODULES/COMMON/LookUp/Degree" Value="3,26,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Country" ToolTip="MODULES/COMMON/LookUp/Country" Value="3,27,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Religion" ToolTip="MODULES/COMMON/LookUp/Religion" Value="3,28,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Institution" ToolTip="MODULES/COMMON/LookUp/Institution" Value="3,29,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Designation Level" ToolTip="MODULES/PMS/LookUp/DesignationLevel"
+                                        Value="3,30,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Document Type" ToolTip="MODULES/PMS/LookUp/DocumentsType" Value="3,31,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Relation Type" ToolTip="MODULES/PMS/LookUp/RelationType" Value="3,32,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Publication Type" ToolTip="MODULES/PMS/LookUp/PublicationType" Value="3,33,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Fixed Holiday" ToolTip="MODULES/PMS/LookUp/FixedHoliday" Value="3,34,1"> 
+                                    </asp:MenuItem> 
+                                     <asp:MenuItem Text="Annual Holiday" ToolTip="MODULES/PMS/LookUp/AnnualHoliday" Value="3,35,1"> 
+                                     </asp:MenuItem> 
+                                     <asp:MenuItem Text="Judge Work List" ToolTip="MODULES/PMS/LookUp/JudgeWork" Value="3,36,1">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>          
+                                                                                   
+                                <asp:MenuItem Text="Reports" Value="Reports" Selectable="False">
+                                    <asp:MenuItem Text="Employee Visits" ToolTip="MODULES/PMS/ReportForms/EmployeeVisit"
+                                        Value="3,37,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Posting" ToolTip="MODULES/PMS/ReportForms/EmployeePosting"
+                                        Value="3,38,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Bio-Data" ToolTip="MODULES/PMS/ReportForms/EmployeeBioData"
+                                        Value="3,39,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Leave Applicable For Employee" ToolTip="MODULES/PMS/ReportForms/LeaveApplicableForEmployee"
+                                        Value="3,40,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Leave Details" ToolTip="MODULES/PMS/ReportForms/EmployeeLeaveDetails"
+                                        Value="3,41,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Medical Expenses" ToolTip="MODULES/PMS/ReportForms/EmployeeMedicalExpenses"
+                                        Value="3,42,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Work Distribution" ToolTip="MODULES/PMS/ReportForms/EmployeeWorkDistribution"
+                                        Value="3,43,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Evaluation Report" ToolTip="MODULES/PMS/ReportForms/EmployeeEvaluationReport"
+                                        Value="3,44,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Employee Attendance" ToolTip="MODULES/PMS/ReportForms/EmployeeAttendance"
+                                        Value="3,45,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation History" ToolTip="MODULES/PMS/ReportForms/DeputationHistory"
+                                        Value="3,46,1"></asp:MenuItem>   
+                                    <asp:MenuItem Text="Designation Status" ToolTip="MODULES/PMS/ReportForms/RepOrgDesignationStatus"
+                                        Value="3,47,1"></asp:MenuItem> 
+                                    <asp:MenuItem Text="Organization Information" ToolTip="MODULES/PMS/ReportForms/OrganizationInformation"
+                                        Value="3,48,1"></asp:MenuItem> 
+                                    <asp:MenuItem Text="Organization Contact" ToolTip="MODULES/PMS/ReportForms/OrganizationContactDetails"
+                                        Value="3,49,1"></asp:MenuItem>   
+                                    <asp:MenuItem Text="Retirement History" ToolTip="MODULES/PMS/ReportForms/RetirementReport"
+                                        Value="3,50,1"></asp:MenuItem>                                                                           
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Text="Security" Value="Security" Selectable="False">
+                                    <asp:MenuItem Text="Users" ToolTip="MODULES/SECURITY/Users" Value="3,51,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Role" ToolTip="MODULES/SECURITY/Roles" Value="3,52,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Organization" ToolTip="MODULES/COMMON/Forms/Organization" Value="3,53,1">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+					</td>
+					<td style="width: 9%; height: 21px;" align="left" valign="middle">
+                        &nbsp;<asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="True" OnClick="lnkLogout_Click" SkinID="Logout" style="position: static">Logout</asp:LinkButton></td>
+                </tr>
+            </table>
+        </asp:Panel>
+        
+        <asp:Panel ID="mainContainer" runat="server" CssClass="mainContainer">
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+        </asp:Panel>
+        <asp:Panel ID="footer" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Footer1.gif"
+            CssClass="footer">
+            <span class="FooterText">Powered By: Professional Computer System P. Ltd.
+                <br />
+                Kupondole, Lalitpur </span>
+        </asp:Panel>
+    </form>
+</body>
+</html>
+
