@@ -1,0 +1,100 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72728912-EF1B-46C4-BDA1-7F1EEE063B15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.COMMON.BLL</RootNamespace>
+    <AssemblyName>PCS.COMMON.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLAnnualHoliday.cs" />
+    <Compile Include="BLLCountry.cs" />
+    <Compile Include="BLLDate.cs" />
+    <Compile Include="BLLDegree.cs" />
+    <Compile Include="BLLDegreeLevel.cs" />
+    <Compile Include="BLLDistrict.cs" />
+    <Compile Include="BLLDocumentsType.cs" />
+    <Compile Include="BLLEmail.cs" />
+    <Compile Include="BLLFixedHoliday.cs" />
+    <Compile Include="BLLInstitution.cs" />
+    <Compile Include="BLLInsurance.cs" />
+    <Compile Include="BLLOrganization.cs" />
+    <Compile Include="BLLOrganizationSubType.cs" />
+    <Compile Include="BLLOrganizationType.cs" />
+    <Compile Include="BLLOrganizationUnit.cs" />
+    <Compile Include="BLLPerson.cs" />
+    <Compile Include="BLLPersonAddress.cs" />
+    <Compile Include="BLLPersonAttachments.cs" />
+    <Compile Include="BLLPersonDocuments.cs" />
+    <Compile Include="BLLPersonEMail.cs" />
+    <Compile Include="BLLPersonPhone.cs" />
+    <Compile Include="BLLPersonQualification.cs" />
+    <Compile Include="BLLPersonSearch.cs" />
+    <Compile Include="BLLPersonTraining.cs" />
+    <Compile Include="BLLPhone.cs" />
+    <Compile Include="BLLRelationType.cs" />
+    <Compile Include="BLLRelatives.cs" />
+    <Compile Include="BLLReligion.cs" />
+    <Compile Include="BLLTime.cs" />
+    <Compile Include="BLLVdc.cs" />
+    <Compile Include="BLLWard.cs" />
+    <Compile Include="BLLZone.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COMMON.DLL\PCS.COMMON.DLL.csproj">
+      <Project>{7BBCABA9-5BDD-4DA6-8993-0C382D2E8102}</Project>
+      <Name>PCS.COMMON.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.SECURITY.ATT\PCS.SECURITY.ATT.csproj">
+      <Project>{ACB98799-4B66-4691-AF7B-E38B3C658F71}</Project>
+      <Name>PCS.SECURITY.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.SECURITY.BLL\PCS.SECURITY.BLL.csproj">
+      <Project>{23D489EC-28D4-4F15-A245-F6C81CE29E7D}</Project>
+      <Name>PCS.SECURITY.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
