@@ -1,0 +1,10 @@
+bin\Release\PCS.REPORT.dll
+bin\Release\PCS.REPORT.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PCS.REPORT.dll
+obj\Release\PCS.REPORT.pdb
+bin\Debug\PCS.REPORT.dll
+bin\Debug\PCS.REPORT.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PCS.REPORT.dll
+obj\Debug\PCS.REPORT.pdb
