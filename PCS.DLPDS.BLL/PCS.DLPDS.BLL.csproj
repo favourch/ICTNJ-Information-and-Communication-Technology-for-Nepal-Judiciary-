@@ -1,0 +1,82 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8FF4045-68B7-43EA-A4F7-DE996B462D9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.DLPDS.BLL</RootNamespace>
+    <AssemblyName>PCS.DLPDS.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLCourse.cs" />
+    <Compile Include="BLLDurationType.cs" />
+    <Compile Include="BLLFaculty.cs" />
+    <Compile Include="BLLFacultyMember.cs" />
+    <Compile Include="BLLParticipant.cs" />
+    <Compile Include="BLLParticipantPost.cs" />
+    <Compile Include="BLLParticipantSearch.cs" />
+    <Compile Include="BLLPost.cs" />
+    <Compile Include="BLLPostLevel.cs" />
+    <Compile Include="BLLProgram.cs" />
+    <Compile Include="BLLProgramCoordinator.cs" />
+    <Compile Include="BLLProgramSponsor.cs" />
+    <Compile Include="BLLProgramType.cs" />
+    <Compile Include="BLLSessionCourse.cs" />
+    <Compile Include="BLLSessionCourseMaterial.cs" />
+    <Compile Include="BLLSessionCourseMember.cs" />
+    <Compile Include="BLLSessions.cs" />
+    <Compile Include="BLLSponsor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.BLL\PCS.COMMON.BLL.csproj">
+      <Project>{72728912-EF1B-46C4-BDA1-7F1EEE063B15}</Project>
+      <Name>PCS.COMMON.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.DLPDS.ATT\PCS.DLPDS.ATT.csproj">
+      <Project>{B4AD0294-C068-4FBF-A21F-E3E96BC15BE7}</Project>
+      <Name>PCS.DLPDS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.DLPDS.DLL\PCS.DLPDS.DLL.csproj">
+      <Project>{345FD830-A937-457E-8A0E-4267DA453D38}</Project>
+      <Name>PCS.DLPDS.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
