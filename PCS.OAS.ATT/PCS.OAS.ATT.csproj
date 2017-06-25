@@ -1,0 +1,138 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{586564F8-1C13-4996-A494-0B9AC0C662FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.OAS.ATT</RootNamespace>
+    <AssemblyName>PCS.OAS.ATT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATTAppointee.cs" />
+    <Compile Include="ATTAppointment.cs" />
+    <Compile Include="ATTAppointmentEvent.cs" />
+    <Compile Include="ATTAppointmentOutdoorParticipant.cs" />
+    <Compile Include="ATTAppointmentStatus.cs" />
+    <Compile Include="ATTAuctionApprove.cs" />
+    <Compile Include="ATTAuctionDetails.cs" />
+    <Compile Include="ATTAuctionMaster.cs" />
+    <Compile Include="ATTCheckEvents.cs" />
+    <Compile Include="ATTCommitteeByTippani.cs" />
+    <Compile Include="ATTDartaaChalaani.cs" />
+    <Compile Include="ATTDocument.cs" />
+    <Compile Include="ATTDocumentAttachment.cs" />
+    <Compile Include="ATTDocumentCategory.cs" />
+    <Compile Include="ATTDocumentFlowType.cs" />
+    <Compile Include="ATTDocumentProcess.cs" />
+    <Compile Include="ATTEvent.cs" />
+    <Compile Include="ATTGeneralTippani.cs" />
+    <Compile Include="ATTGeneralTippaniAttachment.cs" />
+    <Compile Include="ATTGeneralTippaniDetail.cs" />
+    <Compile Include="ATTGeneralTippaniProcess.cs" />
+    <Compile Include="ATTGeneralTippaniRequestInfo.cs" />
+    <Compile Include="ATTGeneralTippaniSearch.cs" />
+    <Compile Include="ATTGeneralTippaniSummary.cs" />
+    <Compile Include="ATTGroup.cs" />
+    <Compile Include="ATTGroupMember.cs" />
+    <Compile Include="ATTGroupPersonSearch.cs" />
+    <Compile Include="ATTInvDakhila.cs" />
+    <Compile Include="ATTInvDeliveryOrder.cs" />
+    <Compile Include="ATTInvDeliveryOrderDetail.cs" />
+    <Compile Include="ATTInvDonationsPurchases.cs" />
+    <Compile Include="ATTInvItems.cs" />
+    <Compile Include="ATTInvItemsCategory.cs" />
+    <Compile Include="ATTInvItemsTransfered.cs" />
+    <Compile Include="ATTInvItemSubCategory.cs" />
+    <Compile Include="ATTInvItemsWiiteOffAprove.cs" />
+    <Compile Include="ATTInvItemsWriteOff.cs" />
+    <Compile Include="ATTInvItemsWriteOffDT.cs" />
+    <Compile Include="ATTInvItemType.cs" />
+    <Compile Include="ATTInvItemUnit.cs" />
+    <Compile Include="ATTInvOrgItems.cs" />
+    <Compile Include="ATTInvOrgItemsKNJ.cs" />
+    <Compile Include="ATTInvOrgItemsPrice.cs" />
+    <Compile Include="ATTInvPurchaseOrder.cs" />
+    <Compile Include="ATTInvPurchaseOrderDetail.cs" />
+    <Compile Include="ATTInvReturnOrder.cs" />
+    <Compile Include="ATTInvReturnOrderDetail.cs" />
+    <Compile Include="ATTInvSrchDakhila.cs" />
+    <Compile Include="ATTInvSrchDeliveryOrder.cs" />
+    <Compile Include="ATTInvSrchPurchaseOrder.cs" />
+    <Compile Include="ATTInvSrchReturnOrder.cs" />
+    <Compile Include="ATTInvSupplier.cs" />
+    <Compile Include="ATTInvSupplierContact.cs" />
+    <Compile Include="ATTMaagFaaramDetail.cs" />
+    <Compile Include="ATTMaagFaaramHead.cs" />
+    <Compile Include="ATTMaagIssueDetail.cs" />
+    <Compile Include="ATTMaagIssueHead.cs" />
+    <Compile Include="ATTMeeting.cs" />
+    <Compile Include="ATTMeetingAgenda.cs" />
+    <Compile Include="ATTMeetingInfo.cs" />
+    <Compile Include="ATTMeetingMinute.cs" />
+    <Compile Include="ATTMeetingParticipant.cs" />
+    <Compile Include="ATTMeetingResources.cs" />
+    <Compile Include="ATTMeetingResponse.cs" />
+    <Compile Include="ATTMeetingStatus.cs" />
+    <Compile Include="ATTMeetingType.cs" />
+    <Compile Include="ATTMeetingVenue.cs" />
+    <Compile Include="ATTMeetingVenueAlreadyBookedDetails.cs" />
+    <Compile Include="ATTMeetingVenueBooking.cs" />
+    <Compile Include="ATTMeetingVenueResources.cs" />
+    <Compile Include="ATTMemberPosition.cs" />
+    <Compile Include="ATTMessage.cs" />
+    <Compile Include="ATTMessageAttachment.cs" />
+    <Compile Include="ATTMessageGroup.cs" />
+    <Compile Include="ATTMessagePerson.cs" />
+    <Compile Include="ATTMessageReceiver.cs" />
+    <Compile Include="ATTOrganizationTippaniSubject.cs" />
+    <Compile Include="ATTTippaniChannel.cs" />
+    <Compile Include="ATTTippaniPriority.cs" />
+    <Compile Include="ATTTippaniStatus.cs" />
+    <Compile Include="ATTTippaniSubject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.PMS.ATT\PCS.PMS.ATT.csproj">
+      <Project>{51BD4CB5-815A-476D-A9F9-7680EDB7DEF4}</Project>
+      <Name>PCS.PMS.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
