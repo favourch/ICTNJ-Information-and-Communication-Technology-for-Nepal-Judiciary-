@@ -1,0 +1,126 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57A6FD65-EB75-4D6D-A4A3-ECA4C78914AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.CMS.ATT</RootNamespace>
+    <AssemblyName>PCS.CMS.ATT</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATTAccountType.cs" />
+    <Compile Include="ATTAinType.cs" />
+    <Compile Include="ATTApplication.cs" />
+    <Compile Include="ATTAttorney.cs" />
+    <Compile Include="ATTBench.cs" />
+    <Compile Include="ATTBenchFormation.cs" />
+    <Compile Include="ATTBenchJudge.cs" />
+    <Compile Include="ATTBenchOrder.cs" />
+    <Compile Include="ATTBenchType.cs" />
+    <Compile Include="ATTCaseAccount.cs" />
+    <Compile Include="ATTCaseAccountDetails.cs" />
+    <Compile Include="ATTCaseAccountForward.cs" />
+    <Compile Include="ATTCaseAccountMaster.cs" />
+    <Compile Include="ATTCaseBenchAssignment.cs" />
+    <Compile Include="ATTCaseCheckList.cs" />
+    <Compile Include="ATTCaseDocuments.cs" />
+    <Compile Include="ATTCaseDocumentsLit.cs" />
+    <Compile Include="ATTCaseDocumentType.cs" />
+    <Compile Include="ATTCaseEvidence.cs" />
+    <Compile Include="ATTCaseLaywer.cs" />
+    <Compile Include="ATTCaseProceeding.cs" />
+    <Compile Include="ATTCaseRegistration.cs" />
+    <Compile Include="ATTCaseSearch.cs" />
+    <Compile Include="ATTCaseSearchForCBA.cs" />
+    <Compile Include="ATTCaseStatus.cs" />
+    <Compile Include="ATTCaseType.cs" />
+    <Compile Include="ATTCauseList.cs" />
+    <Compile Include="ATTCheckList.cs" />
+    <Compile Include="ATTCourtFee.cs" />
+    <Compile Include="ATTDecisionType.cs" />
+    <Compile Include="ATTDocumentType.cs" />
+    <Compile Include="ATTLitigantandAttorney.cs" />
+    <Compile Include="ATTLitigantPrisonDetails.cs" />
+    <Compile Include="ATTLitigants.cs" />
+    <Compile Include="ATTLitigantSearch.cs" />
+    <Compile Include="ATTLitigantSubType.cs" />
+    <Compile Include="ATTMelMilaapKartaa.cs" />
+    <Compile Include="ATTMelMilapKartaOath.cs" />
+    <Compile Include="ATTMisil.cs" />
+    <Compile Include="ATTMyaadType.cs" />
+    <Compile Include="ATTOrders.cs" />
+    <Compile Include="ATTOrganisationBenchType.cs" />
+    <Compile Include="ATTOrganizationCaseType.cs" />
+    <Compile Include="ATTOrgApplication.cs" />
+    <Compile Include="ATTOrgCaseRegistrationType.cs" />
+    <Compile Include="ATTOrgCaseRegTypeCheckList.cs" />
+    <Compile Include="ATTOrgDecisionType.cs" />
+    <Compile Include="ATTPesiType.cs" />
+    <Compile Include="ATTPratiuttar.cs" />
+    <Compile Include="ATTPratiuttarDocLit.cs" />
+    <Compile Include="ATTPratiuttarDocuments.cs" />
+    <Compile Include="ATTPratiuttarEvidence.cs" />
+    <Compile Include="ATTPratiuttarLitigants.cs" />
+    <Compile Include="ATTRegistrationDiary.cs" />
+    <Compile Include="ATTRegistrationDiaryName.cs" />
+    <Compile Include="ATTRegistrationDiarySubject.cs" />
+    <Compile Include="ATTRegistrationType.cs" />
+    <Compile Include="ATTSectionCaseType.cs" />
+    <Compile Include="ATTSectionClerkCase.cs" />
+    <Compile Include="ATTTameli.cs" />
+    <Compile Include="ATTTameliMedia.cs" />
+    <Compile Include="ATTTameliSearch.cs" />
+    <Compile Include="ATTTameliStatus.cs" />
+    <Compile Include="ATTTameliType.cs" />
+    <Compile Include="ATTTameliWitnessPerson.cs" />
+    <Compile Include="ATTTarekhCourtBato.cs" />
+    <Compile Include="ATTTarikh.cs" />
+    <Compile Include="ATTTarikhLocation.cs" />
+    <Compile Include="ATTWitnessPerson.cs" />
+    <Compile Include="ATTWitnessSearch.cs" />
+    <Compile Include="ATTWritCategory.cs" />
+    <Compile Include="ATTWritCategorySubTitle.cs" />
+    <Compile Include="ATTWritCategoryTitle.cs" />
+    <Compile Include="ATTWritSubject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
