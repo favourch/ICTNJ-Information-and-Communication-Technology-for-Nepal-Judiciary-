@@ -1,0 +1,10 @@
+bin\Release\PCS.SECURITY.ATT.dll
+bin\Release\PCS.SECURITY.ATT.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PCS.SECURITY.ATT.dll
+obj\Release\PCS.SECURITY.ATT.pdb
+bin\Debug\PCS.SECURITY.ATT.dll
+bin\Debug\PCS.SECURITY.ATT.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PCS.SECURITY.ATT.dll
+obj\Debug\PCS.SECURITY.ATT.pdb
