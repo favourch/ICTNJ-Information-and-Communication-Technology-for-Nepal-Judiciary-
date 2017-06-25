@@ -1,0 +1,131 @@
+html, body, div, h2, p,
+a, font, img, form, label, legend
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: middle;
+}
+html
+{
+	background: lightgrey;
+}
+body 
+{ 	
+	font: 12px 'Lucida Grande',lucida,helvetica,arial,sans-serif;  
+	color: #333333;   
+	margin: 5em auto;  
+	width: 840px; 
+}
+body#login 
+{  
+	background:#f1f1f1;
+	width: 370px; 
+}
+
+body#login #header 
+{
+	height:4em;
+	background:#00435a;
+	font:Verdana, Geneva, sans-serif;
+	color:#f1f1f1;
+	padding: 15px 20px 0 10px;  
+}
+
+form
+{
+	padding-top:2em;
+	background:#f1f1f1;
+}
+body#login label
+{
+	float: left;
+	text-align: right;
+	width: 85px;
+	font-weight: bold;
+	margin-right: 10px;
+	padding-top: 7px;
+}
+
+body#login input
+{
+	height: 16px;
+	width: 238px;
+	margin-bottom: 12px;
+	padding: 1px;
+	font: 12px 'Lucida Grande', arial, sans-serif;
+}
+
+.button
+{
+	height:28px;
+    display:block;
+	float:left;
+    margin:0 0px 0 95px;
+    background-color:#63bad8;
+    border:1px solid #d1d1d1;
+    font-family:Verdana, Tahoma, Arial, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    color:#e8f7df;
+    cursor:pointer;
+}
+.button:hover
+{
+    background-color:#e8f7df;
+    border:1px solid #92c97c;
+    color:#31940c;
+}
+
+h2
+{
+	font: bold 24px helvetica, arial, sans-serif;
+	color:#ffffff;
+	display: inline;
+	margin-left: 10px;
+}
+ul#forgot
+{ 
+	margin-top: 7px;
+}
+
+li
+{
+	float:left;
+}
+
+li a 
+{	
+	padding-left:5px;
+	color:#404040;
+}
+
+li a:hover 
+{
+	padding-left:5px;
+	color:#ff0000;
+}
+
+.boldtext
+{
+	font-weight: bold;
+	margin-left:10px;
+}
+
+body#login #footer
+{
+		text-align:center;
+        width: 370px;
+        background-color: #f1f1f1;
+        padding-top: 2em;  
+        padding-bottom: 1em;
+        color: #C0C0C0; 
+        font: 11px 'Lucida Grande', arial, sans-serif;
+}
+/* CSS Document */
+
+
