@@ -1,0 +1,87 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{345FD830-A937-457E-8A0E-4267DA453D38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.DLPDS.DLL</RootNamespace>
+    <AssemblyName>PCS.DLPDS.DLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.102.2.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DLLCourse.cs" />
+    <Compile Include="DLLDurationType.cs" />
+    <Compile Include="DLLFaculty.cs" />
+    <Compile Include="DLLFacultyMember.cs" />
+    <Compile Include="DLLParticipant.cs" />
+    <Compile Include="DLLParticipantPost.cs" />
+    <Compile Include="DLLParticipantSearch.cs" />
+    <Compile Include="DLLPost.cs" />
+    <Compile Include="DLLPostLevel.cs" />
+    <Compile Include="DLLProgram.cs" />
+    <Compile Include="DLLProgramCoordinator.cs" />
+    <Compile Include="DLLProgramSponsor.cs" />
+    <Compile Include="DLLProgramType.cs" />
+    <Compile Include="DLLSession.cs" />
+    <Compile Include="DLLSessionCourse.cs" />
+    <Compile Include="DLLSessionCourseMaterial.cs" />
+    <Compile Include="DLLSessionCourseMember.cs" />
+    <Compile Include="DLLSponsor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COMMON.ATT\PCS.COMMON.ATT.csproj">
+      <Project>{D6FC9457-5874-4396-B58C-5E5485CCE0C4}</Project>
+      <Name>PCS.COMMON.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COMMON.DLL\PCS.COMMON.DLL.csproj">
+      <Project>{7BBCABA9-5BDD-4DA6-8993-0C382D2E8102}</Project>
+      <Name>PCS.COMMON.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.COREDL\PCS.COREDL.csproj">
+      <Project>{37FA5A90-0989-4979-ACA8-76039A12A7E1}</Project>
+      <Name>PCS.COREDL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.DLPDS.ATT\PCS.DLPDS.ATT.csproj">
+      <Project>{B4AD0294-C068-4FBF-A21F-E3E96BC15BE7}</Project>
+      <Name>PCS.DLPDS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
