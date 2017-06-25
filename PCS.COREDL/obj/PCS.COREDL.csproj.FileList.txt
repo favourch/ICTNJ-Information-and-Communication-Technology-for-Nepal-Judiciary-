@@ -1,0 +1,12 @@
+bin\Release\PCS.COREDL.dll
+bin\Release\PCS.COREDL.pdb
+bin\Release\Oracle.DataAccess.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PCS.COREDL.dll
+obj\Release\PCS.COREDL.pdb
+bin\Debug\PCS.COREDL.dll
+bin\Debug\PCS.COREDL.pdb
+bin\Debug\Oracle.DataAccess.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PCS.COREDL.dll
+obj\Debug\PCS.COREDL.pdb
