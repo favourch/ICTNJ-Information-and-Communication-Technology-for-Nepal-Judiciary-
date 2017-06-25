@@ -1,0 +1,72 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3EEBA92-641E-42B7-93E0-C89506F3E936}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.LIS.BLL</RootNamespace>
+    <AssemblyName>PCS.LIS.BLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLAuthor.cs" />
+    <Compile Include="BLLCurrency.cs" />
+    <Compile Include="BLLKeyword.cs" />
+    <Compile Include="BLLLanguage.cs" />
+    <Compile Include="BLLLibrary.cs" />
+    <Compile Include="BLLLibraryMaterial.cs" />
+    <Compile Include="BLLLibraryMaterialAuthor.cs" />
+    <Compile Include="BLLLibraryMaterialCopy.cs" />
+    <Compile Include="BLLLibraryMaterialKeyword.cs" />
+    <Compile Include="BLLMaterialCategory.cs" />
+    <Compile Include="BLLMaterialType.cs" />
+    <Compile Include="BLLPublisher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.LIS.ATT\PCS.LIS.ATT.csproj">
+      <Project>{136AAF71-058A-4F4C-B733-C64489112237}</Project>
+      <Name>PCS.LIS.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.LIS.DLL\PCS.LIS.DLL.csproj">
+      <Project>{74570BAD-4603-4526-927C-FE861666B5C7}</Project>
+      <Name>PCS.LIS.DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
