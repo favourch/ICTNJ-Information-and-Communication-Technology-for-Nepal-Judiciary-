@@ -1,0 +1,10 @@
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\bin\Release\PCS.LIS.ATT.dll
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\bin\Release\PCS.LIS.ATT.pdb
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Release\ResolveAssemblyReference.cache
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Release\PCS.LIS.ATT.dll
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Release\PCS.LIS.ATT.pdb
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\bin\Debug\PCS.LIS.ATT.dll
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\bin\Debug\PCS.LIS.ATT.pdb
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Debug\ResolveAssemblyReference.cache
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Debug\PCS.LIS.ATT.dll
+E:\ICT-NJ PROJECT\PCS.LIS.ATT\obj\Debug\PCS.LIS.ATT.pdb

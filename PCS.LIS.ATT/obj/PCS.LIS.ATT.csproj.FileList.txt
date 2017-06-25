@@ -1,0 +1,10 @@
+bin\Release\PCS.LIS.ATT.dll
+bin\Release\PCS.LIS.ATT.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PCS.LIS.ATT.dll
+obj\Release\PCS.LIS.ATT.pdb
+bin\Debug\PCS.LIS.ATT.dll
+bin\Debug\PCS.LIS.ATT.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PCS.LIS.ATT.dll
+obj\Debug\PCS.LIS.ATT.pdb
