@@ -1,0 +1,73 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74570BAD-4603-4526-927C-FE861666B5C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCS.LIS.DLL</RootNamespace>
+    <AssemblyName>PCS.LIS.DLL</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.102.2.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DLLAuthor.cs" />
+    <Compile Include="DLLCurrency.cs" />
+    <Compile Include="DLLKeyword.cs" />
+    <Compile Include="DLLLibrary.cs" />
+    <Compile Include="DLLLibraryMaterial.cs" />
+    <Compile Include="DLLLibraryMaterialAuthor.cs" />
+    <Compile Include="DLLLibraryMaterialCopy.cs" />
+    <Compile Include="DLLLibraryMaterialKeyword.cs" />
+    <Compile Include="DLLLookupLanguage.cs" />
+    <Compile Include="DLLMaterialCategory.cs" />
+    <Compile Include="DLLMaterialType.cs" />
+    <Compile Include="DLLPublisher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCS.COREDL\PCS.COREDL.csproj">
+      <Project>{37FA5A90-0989-4979-ACA8-76039A12A7E1}</Project>
+      <Name>PCS.COREDL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.FRAMEWORK\PCS.FRAMEWORK.csproj">
+      <Project>{A5C72A47-3024-4EEC-846F-5EB654070444}</Project>
+      <Name>PCS.FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCS.LIS.ATT\PCS.LIS.ATT.csproj">
+      <Project>{136AAF71-058A-4F4C-B733-C64489112237}</Project>
+      <Name>PCS.LIS.ATT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
