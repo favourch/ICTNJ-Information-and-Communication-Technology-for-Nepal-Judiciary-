@@ -1,0 +1,144 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CMSMasterPage.master.cs" Inherits="MODULES_CMS_CMSMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ICT" runat="server">
+    <title>ICT-NJ Master page</title>
+    <link href="../COMMON/CSS/MasterPageCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheetSecurity.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/AjaxTab.css" rel="stylesheet" type="text/css" />
+    <meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+</head>
+<body style="background-color: white" >
+    <form id="form1" runat="server">
+        <asp:Panel ID="header" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Header.gif"
+            CssClass="header">
+            <table cellpadding="0" cellspacing="0" style="width: 100%; position: static; height: 85px">
+                <tr>
+                    <td align="center" style="width: 80px; height: 73px;">
+                        <asp:Image ID="Image1" runat="server" Height="65px" ImageUrl="~/MODULES/COMMON/Images/T-NepalGovLogo.gif"
+                            Style="position: static" Width="70px" />
+                    </td>
+                    <td align="center" style="width: 100%; height: 73px;">
+                        <asp:Label ID="headerText1" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS"
+                            Font-Size="21pt" Font-Strikeout="False" SkinID="UnicodeMasterOrgName" Style="position: static"
+                            Text="Organization name" Width="558px"></asp:Label><br />
+                        <asp:Label ID="headerText2" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS"
+                            Font-Size="14pt" SkinID="UnicodeMasterAddress" Style="position: static" Text="Organization address"
+                            Width="558px"></asp:Label></td>
+                    <td align="center" style="width: 80px; height: 73px">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/MODULES/COMMON/Images/Nepali Flag.gif"
+                            Style="position: static" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+        </asp:Panel>
+        <asp:Panel ID="menu" runat="server" BackImageUrl="~/MODULES/COMMON/Images/menuBg.gif"
+            CssClass="menu">
+            <table cellspacing="0" style="position: static; width: 100%;">
+                <tr>
+                    <td align="left" style="width: 92%; height: 21px;" valign="middle">
+                        <asp:Menu ID="CMSMenu" runat="server" CssClass="MenuX" DisappearAfter="50" DynamicEnableDefaultPopOutImage="False"
+                            OnMenuItemClick="CMSMenu_MenuItemClick" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"
+                            StaticSubMenuIndent="10px" Width="600px">
+                            <StaticMenuItemStyle CssClass="StaticMenuItemStyle" />
+                            <StaticHoverStyle CssClass="StaticHoverStyle" />
+                            <DynamicMenuStyle CssClass="DynamicMenuStyle" />
+                            <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" Width="220px" />
+                            <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                                
+                            <Items>
+                                <asp:MenuItem Text="Case" Value="Case">
+                                    <asp:MenuItem Text="Case Registration" ToolTip="MODULES/CMS/Forms/CaseRegistration" Value="1,19,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Search Case" ToolTip="MODULES/CMS/Forms/SearchCaseRegistration" Value="1,23,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Case Verification" ToolTip="MODULES/CMS/Forms/CaseVerification" Value="1,25,1"></asp:MenuItem>                                        
+                                    <asp:MenuItem Text="Pratiuttar" ToolTip="MODULES/CMS/Forms/Pratiuttar" Value="1,22,1"></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Selectable="False" Text="Bench" Value="Bench">
+                                    <asp:MenuItem Text="Bench Orders" ToolTip="MODULES/CMS/Bench/BenchOrders" Value="1,24,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Bench Judge" ToolTip="MODULES/CMS/Bench/BenchJudgeFormation" Value="1,27,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Case Bench Assignment" ToolTip="MODULES/CMS/Bench/CaseBenchAssignment" Value="1,26,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Bench" ToolTip="MODULES/CMS/Bench/Bench" Value="1,29,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Bench Type" ToolTip="MODULES/CMS/Bench/BenchType" Value="1,4,1"> </asp:MenuItem>
+                                    <asp:MenuItem Text="Organization Bench Type" ToolTip="MODULES/CMS/Bench/OrganizationBenchType" Value="1,28,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Orders" ToolTip="MODULES/CMS/Bench/Orders" Value=""></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Selectable="False" Text="Tameli" Value="Tameli">
+                                    <asp:MenuItem Text="Tameli" ToolTip="MODULES/CMS/Tameli/Tameli" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Process Tameli" ToolTip="MODULES/CMS/Tameli/ProcessSuccessTameli" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Tameli Feedback" ToolTip="MODULES/CMS/Tameli/TameliFeedBack" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Myaad Type" ToolTip="MODULES/CMS/Tameli/MyaadType" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Tameli Type" ToolTip="MODULES/CMS/Tameli/TameliType" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Tameli Status" ToolTip="MODULES/CMS/Tameli/TameliStatus" Value=""></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                <asp:MenuItem Selectable="False" Text="Misil" Value="Misil">
+                                    <asp:MenuItem Text="Misil" ToolTip="MODULES/CMS/Misil/Misil" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Document Type" ToolTip="MODULES/CMS/Misil/Document Type" Value=""></asp:MenuItem>
+                                </asp:MenuItem>
+
+                                <asp:MenuItem Selectable="False" Text="Tarikh" Value="Tarikh">
+                                    <asp:MenuItem Text="Tarekh" ToolTip="MODULES/CMS/Tarikh/Tarikh" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Tarekh Location" ToolTip="MODULES/CMS/Tarikh/TarikhLocation" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Court Bato" ToolTip="MODULES/CMS/Tarikh/TarikhCourtBato" Value=""></asp:MenuItem>
+                                </asp:MenuItem>
+
+                                <asp:MenuItem Selectable="False" Text="Mel-Milaap" Value="Mel-Milaap">
+                                    <asp:MenuItem Text="Mel-Milaap Kartaa" ToolTip="MODULES/CMS/Tarikh/MelMilaapKartaa" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Mel-Milaap Kartaa Info" ToolTip="MODULES/CMS/Tarikh/MelMilaapKartaaInfo" Value=""></asp:MenuItem>
+                                    <asp:MenuItem Text="Mel-Milaap Kartaa Case" ToolTip="MODULES/CMS/Tarikh/MelMilaapKartaaCase" Value="">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+
+                                <asp:MenuItem Text="Setup" ToolTip="#" Value="Setup">
+                                    <asp:MenuItem Text="Account Type" ToolTip="MODULES/CMS/LookUp/AccountType" Value="1,1,1"> </asp:MenuItem>
+                                    <asp:MenuItem Text="Ain Type" ToolTip="MODULES/CMS/LookUp/AinType" Value="1,2,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Application" ToolTip="MODULES/CMS/LookUp/Application" Value="1,3,1"> </asp:MenuItem>
+                                    <asp:MenuItem Text="Case Proceeding" ToolTip="MODULES/CMS/LookUp/CaseProceeding" Value="1,6,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Case Status" ToolTip="MODULES/CMS/LookUp/CaseStatus" Value="1,7,1"> </asp:MenuItem>
+                                    <asp:MenuItem Text="Check List" ToolTip="MODULES/CMS/LookUp/CheckList" Value="1,8,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Court Fee" ToolTip="MODULES/CMS/LookUp/CourtFee" Value="1,9,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Case Registration Type" ToolTip="MODULES/CMS/LookUp/OrganizationCaseRegistrationType" Value="1,11,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Case Registration Type CheckList" ToolTip="MODULES/CMS/LookUp/OrganizationCaseRegTypeCheckList" Value="1,12,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Organization Case Type" ToolTip="MODULES/CMS/LookUp/OrganizationCaseType" Value="1,13,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Decision Type" ToolTip="MODULES/CMS/LookUp/OrganizationDecisionType" Value="1,14,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Pesi Type" ToolTip="MODULES/CMS/LookUp/PesiType" Value="1,15,1"> </asp:MenuItem>
+                                    <asp:MenuItem Text="Registration Diary" ToolTip="MODULES/CMS/LookUp/RegistrationDiary" Value="1,16,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="RegistrationType" ToolTip="MODULES/CMS/LookUp/RegistrationType" Value="1,17,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Writ Subject" ToolTip="MODULES/CMS/LookUp/WritSubject" Value="1,18,1"> </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Security" ToolTip="#" Value="Security">
+                                    <asp:MenuItem Text="Organization" ToolTip="MODULES/COMMON/Forms/Organization" Value="1,21,1">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Organization Application" ToolTip="MODULES/SECURITY/OrganizationApplication"
+                                        Value="Organization Application"></asp:MenuItem>
+                                    <asp:MenuItem Text="Role" ToolTip="MODULES/SECURITY/Roles" Value="1,20,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Users" ToolTip="MODULES/SECURITY/Users" Value="1,21,1"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+
+                    </td>
+                    <td align="left" style="width: 9%; height: 21px;" valign="middle">
+                        &nbsp;<asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="True" OnClick="lnkLogout_Click"
+                            SkinID="Logout" Style="position: static">Logout</asp:LinkButton></td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <asp:Panel ID="mainContainer" runat="server" CssClass="mainContainer">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </asp:Panel>
+        <asp:Panel ID="footer" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Footer1.gif"
+            CssClass="footer">
+            <span class="FooterText">Powered By: Professional Computer System P. Ltd.
+                <br />
+                Kopundole, Lalitpur </span>
+        </asp:Panel>
+    </form>
+</body>
+</html>
