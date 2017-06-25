@@ -1,0 +1,466 @@
+http://www.sonystyle.com/webapp/wcs/stores/servlet/CategoryDisplay?catalogId=10551&storeId=10151&langId=-1&categoryId=16154&N=4294966502#filterVar=initFilter&actionVar=thumbClick5
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_ICT"><title>
+	Untitled Page
+</title><link href="../../COMMON/CSS/MasterPageCSS.css" rel="stylesheet" type="text/css" /><link href="../../COMMON/CSS/StyleSheetSecurity.css" rel="stylesheet" type="text/css" /><link href="../../COMMON/CSS/StyleSheet.css" rel="stylesheet" type="text/css" /><link href="../../../App_Themes/Default/Default.css" type="text/css" rel="stylesheet" /><style type="text/css">
+	.ctl00_LibraryMenu_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_LibraryMenu_1 { color:White;font-family:Verdana;font-size:12px;font-weight:bold;text-decoration:none; }
+	.ctl00_LibraryMenu_2 { color:White;font-family:Verdana;font-size:12px;font-weight:bold;height:28px;width:350px; }
+	.ctl00_LibraryMenu_3 {  }
+	.ctl00_LibraryMenu_4 { padding:6px 5px 6px 5px; }
+	.ctl00_LibraryMenu_5 { font-weight:normal;border-style:none; }
+	.ctl00_LibraryMenu_6 { padding:6px 5px 6px 5px; }
+	.ctl00_LibraryMenu_7 { background-color:#455A99; }
+	.ctl00_LibraryMenu_8 { color:White; }
+	.ctl00_LibraryMenu_9 { color:White;background-color:Black; }
+	.ctl00_LibraryMenu_10 { color:White; }
+	.ctl00_LibraryMenu_11 { color:White;background-color:Black;text-decoration:none; }
+
+</style></head>
+<body style="background-color:white">
+    <form name="aspnetForm" method="post" action="CourseMemberAssignment.aspx" id="aspnetForm" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU5MzkzMzU0OQ9kFgJmD2QWAgIDDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgICBQ9kFgICAQ9kFgoCDQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQtQcm9ncmFtTmFtZR4ORGF0YVZhbHVlRmllbGQFCVByb2dyYW1JRB4LXyFEYXRhQm91bmRnZBAVChYtLS0gU2VsZWN0IFByb2dyYW0gLS0tBVBSRyA2BVBSRyA3O0Jhc2ljIE1lZGlhdGlvbiBUcmFpbmluZyBDb3VydCBPZmZpY2VycyBhbmQgRGVmZW5zZSBMYXd5ZXJzBVBSRyAyBVBSRyAzBVBSRyA0BVBSRyA1BVBSRyAxBHNhZGYVCgEwAjEyAjEzAjE0AjExATcBOAE5AjEwAjE1FCsDCmdnZ2dnZ2dnZ2cWAWZkAhEPEGRkFgBkAhUPEGRkFgBkAkUPZBYCAgEPEA8WAh8DZ2QQFR0FU3VtYW4DQUtTBGFhYWEFc2Rhc2QEZ2RmZwdBc2hvazExAkFLA1JhbQVld3F3ZQQ1MzQ1BUFzaG9rBEhhcmkEcndlcgVBc2hvawFhBWV3cXdlAkFBDOCkuOClgeCkruCkqANhYmMEZnNkZgRmc2RmBGRmc2YIU2hyZXN0aGEDQUtTBUFzaG9rAkFLA2ZzZAhBc2hvazc3NwN2eGMVHQEyAjQ1AjUxATQBNgI0MgI0NAI1MwI1NgE1AjM4ATcBOQE4AjQxAjU3AjU4ATEBMwI0NgI0NwI0MwI0OAI0OQI1MAI1MgI1NAIxMAI1NRQrAx1nZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAksPPCsADQBkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYjBSNjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJENoZWNrQm94MQUjY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRDaGVja0JveDIFI2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQ2hlY2tCb3gzBSNjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJENoZWNrQm94NAUjY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRDaGVja0JveDUFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDAFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDEFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDIFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDMFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDQFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDUFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDYFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDcFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDgFKGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDkFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDEwBSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQxMQUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMTIFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDEzBSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQxNAUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMTUFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDE2BSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQxNwUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMTgFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDE5BSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQyMAUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMjEFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDIyBSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQyMwUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMjQFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDI1BSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQyNgUpY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRjaGtMc3RNZW1iZXIkMjcFKWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkY2hrTHN0TWVtYmVyJDI4BSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa0xzdE1lbWJlciQyOAUnY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRncmRBdHRhY2htZW50D2dkQ3x6sj2ZUHSUjLBF5zv6j9qqeqk=" />
+</div>
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script src="/ICTNJ/WebResource.axd?d=qaWeumcli9JpIPzKtnCVfw2&amp;t=633903434011242174" type="text/javascript"></script>
+
+
+<script src="/ICTNJ/WebResource.axd?d=OqGjeDrj5c2P19q9wJ_2pw2&amp;t=633903434011242174" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=DIDeWc8KIsFyHOLmiG6iHg05zYk79XoaG-d2KuhJ9UkUuqJ5AQHphb0zlhd0HGn7r2tBUbxNXEgCd9p32b-CuhAVU84Xf5IcvZpBv3_KApc1&amp;t=633903576958750000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=DIDeWc8KIsFyHOLmiG6iHg05zYk79XoaG-d2KuhJ9UkUuqJ5AQHphb0zlhd0HGn7r2tBUbxNXEgCd9p32b-CuhfeauR9AgLnNyMCVUxOKggcOwx99YvQ9C2hnTgoeioK0&amp;t=633903576958750000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKyf5J8V-hh5RhM9nnG7q8NaOCwWpuNp2DNuulBAbIMWBg2&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKxG8QzkReeg9qMmyo4pA2j0ojLtWoOvnZ7uEti7d7NSib-ntsihdyidv8dbyfOsheQ1&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKwk-RfiSyl7QMmY0m7Fs9wVo_Msos02COnFY3klT7sqLWpUzO2dJQRYmI3FyAXuBQoym95l5SGHv8ycsjzXFbK30&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKw9hl6S3SQmNZ0wMXK4GWpwjARm3LdvrdW9DskYkD0pAw2&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKwf5hLtXRYIeBevq7XqN7kUTrY97Jhd8bBe2TYn02JX3DtV-JS48NdpHPJ8Dn69Gjo1&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKwr7cM2VVHqC41Kklv0y3_GjvLpMcLENhrvWNVwAFWG9vQJcPZZJYyXmj4o57OxpHv5KA4s18yxbEAGFOVyPMiW0&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKx9k6S-lctxfkqvpKIEO58b0i54iwMxX8n_GHmhGHjpOvCi2HhRm0BNHyeXetVlMM81&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKyOTgmirYEg_68-Vo-WrOkZY8pr2VGp7H6SgA0GBRtBrvDRCgFHvvZMh_IgzRS6sX01&amp;t=633501768460000000" type="text/javascript"></script>
+<script src="/ICTNJ/ScriptResource.axd?d=JMRFmcBtpU52b_guV0Rh31TCf_Wv777nYiirG1hFCKy4kFBFarDOPLn43wv3lLRTEnatkCfslnqTpGuRHpaWsKiU5CcK5ozRIusSqe8PGRE1&amp;t=633501768460000000" type="text/javascript"></script>
+        <div id="ctl00_header" class="header">
+	
+            <table bgcolor="white" cellpadding="0" cellspacing="0" style="width: 100%; position: static;
+                height: 85px">
+                <tr>
+                    <td style="height: 9px; width:80px">
+                    </td>
+                    <td align="right" style="height: 9px" colspan="2">
+                        <a href="#" class="TopLink"><span style="font-size: 7.5pt">Home</span></a>|<a href="#" class="TopLink"><span style="font-size: 7.5pt">RSS</span></a>|<a href="#" class="TopLink"><span style="font-size: 7.5pt">Feedback</span></a>&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 2px; background-color: #5B6DB5; width:80px">
+                    </td>
+                    <td style="width: 88%; height: 2px; background-color: #5b6db5">
+                    </td>
+                    <td style="width: 88%; height: 2px; background-color: #5b6db5">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:80px; height: 73px;">
+                        <img id="ctl00_Image1" src="../../COMMON/Images/NepalGovLogo.gif" style="height:65px;width:70px;border-width:0px;position: static" />
+                    </td>
+                    <td align="center" style="width: 100%; height: 73px;">
+            
+            <span id="ctl00_headerText1" style="display:inline-block;color:#5B6DB5;font-family:Arial;font-size:21pt;font-weight:bold;text-decoration:none;width:300px;position: static">Organization name</span><br />
+            <span id="ctl00_headerText2" style="display:inline-block;color:#5B6DB5;font-family:Arial;font-size:14pt;font-weight:bold;width:300px;position: static">Organization address</span></td>
+                    <td align="center" style="width: 100%; height: 73px">
+                        <img id="ctl00_Image2" src="../../COMMON/Images/Nepali%20Flag.gif" style="border-width:0px;position: static" /></td>
+                </tr>
+            </table>
+            <br />
+        
+</div>
+        
+        <div id="ctl00_menu" class="menu" style="background-image:url(../../COMMON/Images/menuBg.jpg);">
+	
+            <table style="position: static; width: 100%;" bordercolorlight="#0" cellspacing="0">
+                <tr>
+                    <td style="width: 92%; height: 21px;" align="left" valign="middle">
+                        <a href="#ctl00_LibraryMenu_SkipLink"><img alt="Skip Navigation Links" src="/ICTNJ/WebResource.axd?d=G77fYB8aRh_7QqoKND5VKw2&amp;t=633903434011242174" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_LibraryMenu" class="OpenClass ctl00_LibraryMenu_2" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="#" id="ctl00_LibraryMenun0"><table class="ctl00_LibraryMenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_LibraryMenu_1 ctl00_LibraryMenu_3" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup')">Setup</a></td><td style="width:0;"><img src="../../COMMON/Images/right.gif" alt="Expand Setup" style="border-style:none;vertical-align:middle;" /></td>
+				</tr>
+			</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="#" id="ctl00_LibraryMenun1"><table class="ctl00_LibraryMenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_LibraryMenu_1 ctl00_LibraryMenu_3" href="javascript:__doPostBack('ctl00$LibraryMenu','Library Material')">Library Material</a></td><td style="width:0;"><img src="../../COMMON/Images/right.gif" alt="Expand Library Material" style="border-style:none;vertical-align:middle;" /></td>
+				</tr>
+			</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="#" id="ctl00_LibraryMenun2"><table class="ctl00_LibraryMenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_LibraryMenu_1 ctl00_LibraryMenu_3" href="javascript:__doPostBack('ctl00$LibraryMenu','Security')">Security</a></td><td style="width:0;"><img src="../../COMMON/Images/right.gif" alt="Expand Security" style="border-style:none;vertical-align:middle;" /></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table><div id="ctl00_LibraryMenun0Items" class="ctl00_LibraryMenu_0 BGImageX ctl00_LibraryMenu_7">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/Library" id="ctl00_LibraryMenun3">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Library')" style="border-style:none;font-size:1em;">Library</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/MaterialType" id="ctl00_LibraryMenun4">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\M aterial Type')" style="border-style:none;font-size:1em;">Material Type</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/MaterialCategory" id="ctl00_LibraryMenun5">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Material Category')" style="border-style:none;font-size:1em;">Material Category</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/Author" id="ctl00_LibraryMenun6">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Author')" style="border-style:none;font-size:1em;">Author</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/Keyword" id="ctl00_LibraryMenun7">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Keyword')" style="border-style:none;font-size:1em;">Keyword</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/Currency" id="ctl00_LibraryMenun8">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Currency')" style="border-style:none;font-size:1em;">Currency</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/LkLanguage" id="ctl00_LibraryMenun9">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Language')" style="border-style:none;font-size:1em;">Language</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/LookUp/LKPublisher" id="ctl00_LibraryMenun10">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Setup\\Publisher')" style="border-style:none;font-size:1em;">Publisher</a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun0ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=rmk9kkcgIvAx37P2k98JSHe12DkQpT8qpmhqPm9nu5Q1&amp;t=633903434011242174" alt="Scroll up" />
+		</div><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun0ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=HQkLQ8HAL8z3arBdwGBJ9tnv_-xKslwedkLz86Aqj9g1&amp;t=633903434011242174" alt="Scroll down" />
+		</div>
+	</div><div id="ctl00_LibraryMenun1Items" class="ctl00_LibraryMenu_0 BGImageX ctl00_LibraryMenu_7">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/Forms/LibraryMaterial" id="ctl00_LibraryMenun11">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Library Material\\Add Library Material')" style="border-style:none;font-size:1em;">Add Library Material</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/Forms/LibraryMaterialEditor" id="ctl00_LibraryMenun12">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Library Material\\Update Library Material')" style="border-style:none;font-size:1em;">Update Library Material</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/LIS/Forms/MaterialSearch" id="ctl00_LibraryMenun13">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Library Material\\Search Material')" style="border-style:none;font-size:1em;">Search Material</a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun1ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=rmk9kkcgIvAx37P2k98JSHe12DkQpT8qpmhqPm9nu5Q1&amp;t=633903434011242174" alt="Scroll up" />
+		</div><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun1ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=HQkLQ8HAL8z3arBdwGBJ9tnv_-xKslwedkLz86Aqj9g1&amp;t=633903434011242174" alt="Scroll down" />
+		</div>
+	</div><div id="ctl00_LibraryMenun2Items" class="ctl00_LibraryMenu_0 BGImageX ctl00_LibraryMenu_7">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/COMMON/Forms/Organization" id="ctl00_LibraryMenun14">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Security\\Organization')" style="border-style:none;font-size:1em;">Organization</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/SECURITY/OrganizationApplication" id="ctl00_LibraryMenun15">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Security\\Organization Application')" style="border-style:none;font-size:1em;">Organization Application</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/SECURITY/Roles" id="ctl00_LibraryMenun16">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Security\\Role')" style="border-style:none;font-size:1em;">Role</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" title="MODULES/SECURITY/Users" id="ctl00_LibraryMenun17">
+				<td><table class="SJClass ctl00_LibraryMenu_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_LibraryMenu_1 SJClass ctl00_LibraryMenu_5" href="javascript:__doPostBack('ctl00$LibraryMenu','Security\\User')" style="border-style:none;font-size:1em;">User</a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun2ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=rmk9kkcgIvAx37P2k98JSHe12DkQpT8qpmhqPm9nu5Q1&amp;t=633903434011242174" alt="Scroll up" />
+		</div><div class="SJClass ctl00_LibraryMenu_6 ctl00_LibraryMenu_0" id="ctl00_LibraryMenun2ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/ICTNJ/WebResource.axd?d=HQkLQ8HAL8z3arBdwGBJ9tnv_-xKslwedkLz86Aqj9g1&amp;t=633903434011242174" alt="Scroll down" />
+		</div>
+	</div><a id="ctl00_LibraryMenu_SkipLink"></a>
+					</td>
+					<td style="width: 9%; height: 21px;" align="left" valign="middle">
+                        &nbsp;<a id="ctl00_lnkLogout" href="javascript:__doPostBack('ctl00$lnkLogout','')" style="color:White;font-family:Verdana;font-size:12px;font-weight:bold;position: static">Logout</a></td>
+                </tr>
+            </table>
+        
+</div>
+        
+        <div id="ctl00_mainContainer" class="mainContainer">
+	
+            
+    <div style="width: 100%; height: auto">
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+	//]]>
+</script>
+
+        <input type="submit" name="ctl00$ContentPlaceHolder1$hiddenTargetControlForModalPopup" value="" id="ctl00_ContentPlaceHolder1_hiddenTargetControlForModalPopup" style="font-family:Verdana;font-size:11px;height:20px;display: none" />
+        
+        <div id="ctl00_ContentPlaceHolder1_programmaticPopup" class="modalPopup" style="padding-right: 10px; display: none; padding-left: 10px; padding-bottom: 10px;
+            width: 350px; padding-top: 10px">
+		
+            <div id="ctl00_ContentPlaceHolder1_programmaticPopupDragHandle" style="border-right: gray 1px solid; border-top: gray 1px solid; border-left: gray 1px solid;
+                cursor: move; color: black; border-bottom: gray 1px solid; background-color: #dddddd; text-align: center">
+			
+                <span id="ctl00_ContentPlaceHolder1_lblStatus" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Label</span>&nbsp;
+		</div>
+            <span id="ctl00_ContentPlaceHolder1_lblStatusMessage" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Label</span><br />
+            <input type="submit" name="ctl00$ContentPlaceHolder1$OkButton" value="OK" id="ctl00_ContentPlaceHolder1_OkButton" style="font-family:Verdana;font-size:11px;height:20px;width:58px;" />
+            <br />
+        
+	</div>
+        <br />
+        <table width="800">
+            <tr>
+                <td colspan="2">
+                    <span id="ctl00_ContentPlaceHolder1_Label4" style="color:#1D2A5B;font-family:Verdana;font-size:11px;font-weight:bold;text-decoration:underline;">Course-Faculty member assignment</span></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label1" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Program</span></td>
+                <td style="width: 480px">
+                    <select name="ctl00$ContentPlaceHolder1$ddlProgram_Rqd" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlProgram_Rqd\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlProgram_Rqd" style="font-family:Verdana;font-size:11px;width:450px;">
+		<option selected="selected" value="0">--- Select Program ---</option>
+		<option value="12">PRG 6</option>
+		<option value="13">PRG 7</option>
+		<option value="14">Basic Mediation Training Court Officers and Defense Lawyers</option>
+		<option value="11">PRG 2</option>
+		<option value="7">PRG 3</option>
+		<option value="8">PRG 4</option>
+		<option value="9">PRG 5</option>
+		<option value="10">PRG 1</option>
+		<option value="15">sadf</option>
+
+	</select></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label2" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Session</span></td>
+                <td style="width: 480px">
+                    <select name="ctl00$ContentPlaceHolder1$ddlSession_Rqd" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlSession_Rqd\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlSession_Rqd" style="font-family:Verdana;font-size:11px;width:450px;">
+
+	</select></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label3" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Course</span></td>
+                <td style="width: 480px">
+                    <select name="ctl00$ContentPlaceHolder1$ddlCourse_Rqd" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlCourse_Rqd\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlCourse_Rqd" style="font-family:Verdana;font-size:11px;width:450px;">
+
+	</select></td>
+            </tr>
+            <tr>
+                <td colspan="2" height="30" valign="bottom">
+                    <span id="ctl00_ContentPlaceHolder1_Label5" style="color:#1D2A5B;font-family:Verdana;font-size:11px;font-weight:bold;text-decoration:underline;">Course material</span>
+                    <a id="ctl00_ContentPlaceHolder1_HyperLink1" href="../CourseMaterial/Add.txt">HyperLink</a></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label6" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Material(File 1)</span></td>
+                <td style="width: 480px">
+                    <input type="file" name="ctl00$ContentPlaceHolder1$fup1" id="ctl00_ContentPlaceHolder1_fup1" style="width:450px;" />
+                    </td>
+                <td style="width: 200px">
+                    <a id="ctl00_ContentPlaceHolder1_lnkFile1" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$lnkFile1','')" style="color:#1D2A5B;font-family:Verdana;font-size:12px;">Filename</a>
+                    &nbsp;&nbsp;
+                    <input id="ctl00_ContentPlaceHolder1_CheckBox1" type="checkbox" name="ctl00$ContentPlaceHolder1$CheckBox1" /><label for="ctl00_ContentPlaceHolder1_CheckBox1">Remove</label></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label7" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Material(File 2)</span></td>
+                <td style="width: 480px">
+                    <input type="file" name="ctl00$ContentPlaceHolder1$fup2" id="ctl00_ContentPlaceHolder1_fup2" style="width:450px;" /></td>
+                <td style="width: 200px">
+                    <a id="ctl00_ContentPlaceHolder1_lnkFile2" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$lnkFile2','')" style="color:#1D2A5B;font-family:Verdana;font-size:12px;">Filename</a>
+                    &nbsp;&nbsp;
+                    <input id="ctl00_ContentPlaceHolder1_CheckBox2" type="checkbox" name="ctl00$ContentPlaceHolder1$CheckBox2" /><label for="ctl00_ContentPlaceHolder1_CheckBox2">Remove</label></td>
+            </tr>
+            <tr>
+                <td style="width: 120px; height: 25px;">
+                    <span id="ctl00_ContentPlaceHolder1_Label8" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Material(File 3)</span></td>
+                <td style="width: 480px; height: 25px;">
+                    <input type="file" name="ctl00$ContentPlaceHolder1$fup3" id="ctl00_ContentPlaceHolder1_fup3" style="width:450px;" /></td>
+                <td style="width: 200px; height: 25px">
+                    <a id="ctl00_ContentPlaceHolder1_lnkFile3" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$lnkFile3','')" style="color:#1D2A5B;font-family:Verdana;font-size:12px;">Filename</a>
+                    &nbsp;&nbsp;
+                    <input id="ctl00_ContentPlaceHolder1_CheckBox3" type="checkbox" name="ctl00$ContentPlaceHolder1$CheckBox3" /><label for="ctl00_ContentPlaceHolder1_CheckBox3">Remove</label></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label9" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Material(File 4)</span></td>
+                <td style="width: 480px">
+                    <input type="file" name="ctl00$ContentPlaceHolder1$fup4" id="ctl00_ContentPlaceHolder1_fup4" style="width:450px;" /></td>
+                <td style="width: 200px">
+                    <a id="ctl00_ContentPlaceHolder1_lnkFile4" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$lnkFile4','')" style="color:#1D2A5B;font-family:Verdana;font-size:12px;">Filename</a>
+                    &nbsp;&nbsp;
+                    <input id="ctl00_ContentPlaceHolder1_CheckBox4" type="checkbox" name="ctl00$ContentPlaceHolder1$CheckBox4" /><label for="ctl00_ContentPlaceHolder1_CheckBox4">Remove</label></td>
+            </tr>
+            <tr>
+                <td style="width: 120px">
+                    <span id="ctl00_ContentPlaceHolder1_Label10" style="color:#1D2A5B;font-family:Verdana;font-size:11px;">Material(File 5)</span></td>
+                <td style="width: 480px">
+                    <input type="file" name="ctl00$ContentPlaceHolder1$fup5" id="ctl00_ContentPlaceHolder1_fup5" style="width:450px;" /></td>
+                <td style="width: 200px">
+                    <a id="ctl00_ContentPlaceHolder1_lnkFile5" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$lnkFile5','')" style="color:#1D2A5B;font-family:Verdana;font-size:12px;">Filename</a>
+                    &nbsp;&nbsp;
+                    <input id="ctl00_ContentPlaceHolder1_CheckBox5" type="checkbox" name="ctl00$ContentPlaceHolder1$CheckBox5" /><label for="ctl00_ContentPlaceHolder1_CheckBox5">Remove</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" style="height: 30px">
+                    <span id="ctl00_ContentPlaceHolder1_Label11" style="color:#1D2A5B;font-family:Verdana;font-size:11px;font-weight:bold;text-decoration:underline;">Faculty member</span></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="ctl00_ContentPlaceHolder1_Panel1" style="border-color:Silver;border-width:1px;border-style:Solid;height:250px;width:570px;overflow:auto;">
+		
+                        <table id="ctl00_ContentPlaceHolder1_chkLstMember" border="0" style="color:#1D2A5B;font-family:Verdana;font-size:11px;width:530px;">
+			<tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_0" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$0" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_0">Suman</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_15" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$15" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_15">ewqwe</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_1" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$1" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_1">AKS</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_16" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$16" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_16">AA</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_2" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$2" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_2">aaaa</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_17" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$17" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_17">सुमन</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_3" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$3" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_3">sdasd</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_18" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$18" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_18">abc</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_4" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$4" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_4">gdfg</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_19" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$19" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_19">fsdf</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_5" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$5" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_5">Ashok11</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_20" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$20" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_20">fsdf</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_6" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$6" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_6">AK</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_21" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$21" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_21">dfsf</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_7" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$7" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_7">Ram</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_22" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$22" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_22">Shrestha</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_8" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$8" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_8">ewqwe</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_23" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$23" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_23">AKS</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_9" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$9" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_9">5345</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_24" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$24" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_24">Ashok</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_10" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$10" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_10">Ashok</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_25" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$25" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_25">AK</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_11" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$11" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_11">Hari</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_26" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$26" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_26">fsd</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_12" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$12" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_12">rwer</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_27" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$27" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_27">Ashok777</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_13" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$13" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_13">Ashok</label></td><td><input id="ctl00_ContentPlaceHolder1_chkLstMember_28" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$28" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_28">vxc</label></td>
+			</tr><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chkLstMember_14" type="checkbox" name="ctl00$ContentPlaceHolder1$chkLstMember$14" /><label for="ctl00_ContentPlaceHolder1_chkLstMember_14">a</label></td><td></td>
+			</tr>
+		</table>
+                        
+                    
+	</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Submit" id="ctl00_ContentPlaceHolder1_btnSubmit" style="font-family:Verdana;font-size:11px;height:20px;width:60px;" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnCancel" value="Cancel" id="ctl00_ContentPlaceHolder1_btnCancel" style="font-family:Verdana;font-size:11px;height:20px;width:60px;" /></td>
+            </tr>
+        </table>
+                    <div>
+
+	</div>
+    </div>
+
+        
+</div>
+        
+        <div id="ctl00_footer" class="footer" style="background-image:url(../../COMMON/Images/FooterBg.jpg);">
+	
+            <br />
+            <span style="color: White; font-family:Verdana; font-size:10px">Powered By: Professional Computer System Pvt. Ltd</span>
+</div>
+    
+<div>
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWTAKctJ3ZBALr3OLbAgLahvmeAQLs+5DfAwL+qb23BAL/2LrNAwLim6zhDALCl7bSBALJuNmYDgK73KvyCgK0uZe7CwK8rseeDwLVv7izBwLTsPKVAQLTvdvWCALdpb+wBwLlutvvDAKW5LveDwKvgcDWBALCz7maAgLEhLnRDwLKnq5tAtuqv78CAsvFldEOAtTF3dIOAtTF4dIOAtTF5dIOAtTF2dIOAtLFldEOAsPFldEOAszFldEOAtTF1dIOAtTF6dIOAp71+skGAtKTpdEKAtnW+IoIAv7Oo7YEAtnW/IoIAuPlhaEKAtnWgIsIAsj85wsC2daEiwgCrZPK9gUC2daIiwgCkqqs4QsCttzkZwLQstraCQK23PjCCQLRstraCQK23IyeAgLSstraCQK23KD5CgLbstraCQK23LTUAwLcstraCQK23MivDALTsu61AgK23NyKBQLUsu61AgK23PDlDQLVsu61AgK23MSOCwLWsu61AgK23NjpAwLPsu61AgLTstraCQLQsu61AgLUstraCQLRsu61AgLVstraCQLSsu61AgLWstraCQLbsu61AgLPstraCQL40JWiCgKG1qD0CUfkdyaBPDMOi7fSh9Ho6KCHXp5L" />
+</div>
+
+<script type="text/javascript">
+<!--
+var ctl00_LibraryMenu_Data = new Object();
+ctl00_LibraryMenu_Data.disappearAfter = 50;
+ctl00_LibraryMenu_Data.horizontalOffset = 0;
+ctl00_LibraryMenu_Data.verticalOffset = 0;
+ctl00_LibraryMenu_Data.hoverClass = 'ctl00_LibraryMenu_11';
+ctl00_LibraryMenu_Data.hoverHyperLinkClass = 'ctl00_LibraryMenu_10';
+ctl00_LibraryMenu_Data.staticHoverClass = 'ctl00_LibraryMenu_9';
+ctl00_LibraryMenu_Data.staticHoverHyperLinkClass = 'ctl00_LibraryMenu_8';
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","DropShadow":true,"PopupControlID":"ctl00_ContentPlaceHolder1_programmaticPopup","PopupDragHandleControlID":"ctl00_ContentPlaceHolder1_programmaticPopupDragHandle","dynamicServicePath":"/ICTNJ/MODULES/DLPDS/Forms/CourseMemberAssignment.aspx","id":"programmaticModalPopupBehavior","repositionMode":2}, null, null, $get("ctl00_ContentPlaceHolder1_hiddenTargetControlForModalPopup"));
+});
+// -->
+</script>
+</form>
+</body>
+</html>
