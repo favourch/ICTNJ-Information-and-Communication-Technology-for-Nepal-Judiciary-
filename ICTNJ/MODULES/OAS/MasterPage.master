@@ -1,0 +1,172 @@
+﻿<%@ Master AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MODULES_LIS_LibraryMaster" Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ICT" runat="server">
+    <title>ICT-NJ Master page</title>
+    <link href="../COMMON/CSS/MasterPageCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheetSecurity.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../COMMON/CSS/AjaxTab.css" rel="stylesheet" type="text/css" />
+    <meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+</head>
+<body id="bodyPage">
+    <form id="OAS" runat="server">
+        <asp:Panel ID="header" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Header.gif" CssClass="header">
+            <table cellpadding="0" cellspacing="0" style="width: 100%; position: static; height: 85px">
+                <tr>
+                    <td align="center" style="width: 80px; height: 73px;">
+                        <asp:Image ID="Image1" runat="server" Height="65px" ImageUrl="~/MODULES/COMMON/Images/T-NepalGovLogo.gif" Style="position: static"
+                            Width="70px" />
+                    </td>
+                    <td align="center" style="width: 100%; height: 73px;">
+                        <asp:Label ID="headerText1" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS" Font-Size="21pt" Font-Strikeout="False"
+                            SkinID="UnicodeMasterOrgName" Style="position: static" Text="सर्वोच्च अदालत" Width="558px"></asp:Label><br />
+                        <asp:Label ID="headerText2" runat="server" Font-Bold="True" Font-Names="Arial Unicode MS" Font-Size="14pt" SkinID="UnicodeMasterAddress"
+                            Style="position: static" Text="रामशाहापथ" Width="558px"></asp:Label></td>
+                    <td align="center" style="width: 80px; height: 73px">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/MODULES/COMMON/Images/Nepali Flag.gif" Style="position: static" />
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <asp:Panel ID="menu" runat="server" BackImageUrl="~/MODULES/COMMON/Images/menuBg.gif" CssClass="menu">
+            <table cellspacing="0" style="position: static; width: 100%;">
+                <tr>
+                    <td align="left" style="width: 92%; height: 21px;" valign="middle">
+                        <asp:Menu ID="LibraryMenu" runat="server" CssClass="MenuX" DisappearAfter="50" DynamicEnableDefaultPopOutImage="False" DynamicPopOutImageUrl="~/MODULES/COMMON/Images/right.gif"
+                            OnMenuItemClick="LibraryMenu_MenuItemClick" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="10px"
+                            Width="900px">
+                            <StaticMenuItemStyle CssClass="StaticMenuItemStyle" />
+                            <StaticHoverStyle CssClass="StaticHoverStyle" />
+                            <DynamicMenuStyle CssClass="DynamicMenuStyle" />
+                            <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" Width="220px" />
+                            <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                            <Items>
+                                <asp:MenuItem Text="Profile" Value="Profile">
+                                    <asp:MenuItem Text="Leave Application" ToolTip="MODULES/OAS/Forms/EmployeeLeaveApplication">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation TransferWork" ToolTip="MODULES/OAS/Forms/EmployeeDeputationTransferWork">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Meeting Management" ToolTip="MODULES/OAS/Tippani/LeaveTippaniRecommendViewer" Value="Meeting Management">
+                                    <asp:MenuItem Text="Committee Member" ToolTip="MODULES/OAS/LookUp/CommitteeMember" Value="5,6,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Meeting" ToolTip="MODULES/OAS/Forms/Appointment_Meeting" Value="5,7,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Meeting Minute" ToolTip="MODULES/OAS/LookUp/MeetingMinute" Value="5,8,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Meeting Report" ToolTip="MODULES/OAS/ReportForms/MeetingReport" Value="Meeting Report"></asp:MenuItem>
+                                    <asp:MenuItem Text="Venue Management" Value="Venue Management">
+                                        <asp:MenuItem Text="Meeting Venue Management" ToolTip="MODULES/OAS/Forms/MeetingVenueManagement" Value="Meeting Venue Management">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Booked Venue Search" ToolTip="MODULES/OAS/Forms/MeetingVenueBookingSearch" Value="Booked Venue Search"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Appointment" Value="Appointment">
+                                    <asp:MenuItem Text="Appointment" ToolTip="MODULES/OAS/Forms/Appointment" Value="5,9,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Appointment Report" ToolTip="MODULES/OAS/ReportForms/AppointmentReport" Value="Appointment Report"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Tippani" Value="Blog">
+                                    <asp:MenuItem Text="General Tippani" ToolTip="MODULES/OAS/Tippani/GeneralTippani" Value="General Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Leave Tippani" ToolTip="MODULES/OAS/Tippani/LeaveTippani" Value="Leave Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Visit Tippani" ToolTip="MODULES/OAS/Tippani/VisitTippani" Value="Visit Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Training Tippani" ToolTip="MODULES/OAS/Tippani/TrainingTippani" Value="Training Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Posting Tippani" ToolTip="MODULES/OAS/Tippani/PostingTippani" Value="Posting Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation Tippani" ToolTip="MODULES/OAS/Tippani/DeputationTippani" Value="Deputation Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Punishment Tippani" ToolTip="MODULES/OAS/Tippani/PunishmentTippani" Value="Punishment Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Award Tippani" ToolTip="MODULES/OAS/Tippani/AwardTippani" Value="Award Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Committee Tippani" ToolTip="MODULES/OAS/Tippani/CommitteeTippani" Value="Committee Tippani"></asp:MenuItem>
+                                    <asp:MenuItem Text="Tippani Channel" ToolTip="MODULES/OAS/Tippani/TippaniChannel" Value="Tippani Channel"></asp:MenuItem>
+                                        <asp:MenuItem Text="Tippani Search / Reports" ToolTip="MODULES/OAS/Tippani/TippaniDetailSearch" Value="Printable Tippani"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Tippani Viewer" Value="Tippani Viewer">
+                                    <asp:MenuItem Text="General Tippani Viewer" ToolTip="MODULES/OAS/Tippani/GeneralTippaniRequestViewer" Value="General Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Selectable="False" Text="Leave Tippani Viewer" Value="Leave Tippani Viewer">
+                                        <asp:MenuItem Text="Request Viewer" ToolTip="MODULES/OAS/Tippani/LeaveTippaniRequestViewer" Value="Request Viewer"></asp:MenuItem>
+                                        <asp:MenuItem Text="Recommendation Viewer" ToolTip="MODULES/OAS/Tippani/LeaveTippaniRecommendViewer" Value="Recommendation Viewer">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/MODULES/OAS/Tippani/VisitTippaniRequestViewer.aspx" Text="Visit Tippani Viewer" Value="Visit Request Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Training Tippani Viewer" ToolTip="MODULES/OAS/Tippani/TrainingTippaniRequestViewer" Value="Training Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/MODULES/OAS/Tippani/PostingTippaniRequestViewer.aspx" Text="Posting Tippani Viewer" Value="Posting Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Deputation Tippani Viewer" ToolTip="MODULES/OAS/Tippani/DeputationTippaniRequestViewer" Value="Deputation Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Punishment Tippani Viewer" ToolTip="MODULES/OAS/Tippani/PunishmentTippaniRequestViewer" Value="Punishment Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Award Tippani Viewer" ToolTip="MODULES/OAS/Tippani/AwardTippaniRequestViewer" Value="Award Tippani Viewer">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Committee Tippani Viewer" ToolTip="MODULES/OAS/Tippani/CommitteeTippaniViewer"
+                                        Value="Committee Tippani Viewer"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Messaging" Value="Messaging">
+                                    <asp:MenuItem Text="Compose" ToolTip="MODULES/OAS/Forms/Message" Value="Compose"></asp:MenuItem>
+                                    <asp:MenuItem Text="Letter" ToolTip="MODULES/OAS/Forms/MessageLetter" Value="Letter"></asp:MenuItem>
+                                    <asp:MenuItem Text="Inbox" ToolTip="MODULES/OAS/Forms/MessageInbox" Value="Inbox"></asp:MenuItem>
+                                    <asp:MenuItem Text="Outbox" ToolTip="MODULES/OAS/Forms/MessageOutBox" Value="Outbox"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Lookup" Value="Lookup">
+                                    <asp:MenuItem Text="Meeting Type" ToolTip="MODULES/OAS/LookUp/MeetingType" Value="5,1,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Meeting Status" ToolTip="MODULES/OAS/LookUp/MeetingStatus" Value="5,2,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Meeting Venue" ToolTip="MODULES/OAS/LookUp/MeetingVenue" Value="5,3,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Member Position" ToolTip="MODULES/OAS/LookUp/MemberPosition" Value="5,4,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Committee" ToolTip="MODULES/OAS/LookUp/Committee" Value="5,5,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Group" ToolTip="MODULES/OAS/LookUp/Group" Value="5,68,1"></asp:MenuItem>
+                                    <asp:MenuItem Text="Appointment Status" ToolTip="MODULES/OAS/LookUp/AppointmentStatus" Value="Return Order"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Selectable="False" Text="Inventory" Value="Inventory">
+                                    <asp:MenuItem Selectable="False" Text="LookUp" Value="LookUp">
+                                        <asp:MenuItem Text="Items" ToolTip="MODULES/OAS/Inventory/Lookup/InvItems" Value="Items"></asp:MenuItem>
+                                        <asp:MenuItem Text="Organization Items" ToolTip="MODULES/OAS/Inventory/Lookup/InvOrganisationItems"
+                                            Value="InvOrganisationItems"></asp:MenuItem>
+                                        <asp:MenuItem Text="Organization Items Price" ToolTip="MODULES/OAS/Inventory/Lookup/OrganisationItemsPrice"
+                                            Value="OrganisationItemsPrice"></asp:MenuItem>
+                                        <asp:MenuItem Text="Item Category" ToolTip="MODULES/OAS/Inventory/Lookup/InvItemsCategory"
+                                            Value="Item Category"></asp:MenuItem>
+                                        <asp:MenuItem Text="Items Unit" ToolTip="MODULES/OAS/Inventory/Lookup/InvItemsUnit"
+                                            Value="Items Unit"></asp:MenuItem>
+                                        <asp:MenuItem Text="Supplier" ToolTip="MODULES/OAS/Inventory/Lookup/Supplier" Value="Supplier"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Purchase Order" ToolTip="MODULES/OAS/Inventory/Forms/PurchaseOrder"
+                                        Value="Purchase Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Search Purchase Order" ToolTip="MODULES/OAS/Inventory/Forms/SrchPurchaseOrder"
+                                        Value="Search Purchase Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Recomend Purchase Order" ToolTip="MODULES/OAS/Inventory/Forms/RecomendPurchaseOrder"
+                                        Value="Recomend Purchase Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Approve Purchase Order" ToolTip="MODULES/OAS/Inventory/Forms/ApprovePurchaseOrder"
+                                   Value="Approve Purchase Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Delivery Order" ToolTip="MODULES/OAS/Inventory/Forms/DeliveryOrder"
+                                        Value="Delivery Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Return Order" ToolTip="MODULES/OAS/Inventory/Forms/ReturnOrder"
+                                        Value="Return Order"></asp:MenuItem>
+                                    <asp:MenuItem Text="Direct Entry" ToolTip="MODULES/OAS/Inventory/Forms/DirectEntry"
+                                        Value="Direct Entry"></asp:MenuItem>
+                                    <asp:MenuItem Text="Approve Direct Entry" ToolTip="MODULES/OAS/Inventory/Forms/ApproveDirectEntry"
+                                        Value="Approve Direct Entry"></asp:MenuItem>
+                                    </asp:MenuItem>
+
+                                <asp:MenuItem Selectable="False" Text="Dartaa/Chalaani" Value="Dartta/Challani">
+                                    <asp:MenuItem Text="Dartaa" ToolTip="MODULES/OAS/Forms/Dartaa" Value="Dartaa"></asp:MenuItem>
+                                    <asp:MenuItem Text="Chalaani" ToolTip="MODULES/OAS/Forms/Chalaani" Value="Chalaani"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                    <td align="left" style="width: 9%; height: 21px;" valign="middle">
+                        <asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="False" OnClick="lnkLogout_Click" SkinID="Logout" Style="position: static">Logout</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <asp:Panel ID="mainContainer" runat="server" CssClass="mainContainer">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </asp:Panel>
+        <asp:Panel ID="footer" runat="server" BackImageUrl="~/MODULES/COMMON/Images/Footer1.gif" CssClass="footer">
+            <span class="FooterText">Powered By: Professional Computer System P. Ltd.
+                <br />
+                Kopundole, Lalitpur </span>
+        </asp:Panel>
+    </form>
+</body>
+</html>
